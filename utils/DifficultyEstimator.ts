@@ -70,7 +70,7 @@ export default class DifficultyEstimator {
     const smallAreas = sizes.filter(size => size <= 10).reduce((acc, val) => {
         return areas[val.toString()] + acc
     }, 0)
-    const mediumAreas = sizes.filter(size => size > 10 && size <= 30).reduce((acc, val) => {
+    const mediumAreas = sizes.filter(size => size > 10 && size <= 25).reduce((acc, val) => {
         return areas[val.toString()] + acc
     }, 0)
     const totalAreas = sizes.reduce((acc, val) => {
@@ -80,7 +80,7 @@ export default class DifficultyEstimator {
         totalAreas,
         smallAreas,
         mediumAreas,
-        difficultyNumber: (totalAreas + (mediumAreas * 2) + (smallAreas * 4))
+        difficultyNumber: (totalAreas + Math.ceil(mediumAreas * 1.5) + (smallAreas * 2))
     };
   }
 
