@@ -67,10 +67,10 @@ export default class DifficultyEstimator {
     this.imageData = this.ctx.getImageData(0, 0, this.width, this.height);
     const areas = this.findFillSpaces();
     const sizes = Object.keys(areas).map(Number)
-    const smallAreas = sizes.filter(size => size <= 10).reduce((acc, val) => {
+    const smallAreas = sizes.filter(size => size <= 4).reduce((acc, val) => {
         return areas[val.toString()] + acc
     }, 0)
-    const mediumAreas = sizes.filter(size => size > 10 && size <= 25).reduce((acc, val) => {
+    const mediumAreas = sizes.filter(size => size > 4 && size <= 25).reduce((acc, val) => {
         return areas[val.toString()] + acc
     }, 0)
     const totalAreas = sizes.reduce((acc, val) => {

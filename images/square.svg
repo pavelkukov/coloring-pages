@@ -15,12 +15,6 @@
   <metadata
      id="metadata5">
     <rdf:RDF>
-        <rdf:Description about=""
-          dc:title="Square"
-          dc:description="Square"
-          dc:keywords="basic shapes, square, 1-2 years"
-          dc:date="2020-03-10"
-        ></rdf:Description>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>

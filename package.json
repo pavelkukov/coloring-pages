@@ -22,15 +22,18 @@
     "url": "https://github.com/pavelkukov/coloring-pages/issues"
   },
   "homepage": "https://github.com/pavelkukov/coloring-pages#readme",
-  "dependencies": {},
+  "dependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "canvas": "^2.6.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@storybook/addon-actions": "^5.3.14",
     "@storybook/addon-links": "^5.3.14",
     "@storybook/addons": "^5.3.14",
     "@storybook/react": "^5.3.14",
-    "babel-loader": "^8.0.6",
-    "canvas": "^2.6.1",
-    "cheerio": "^1.0.0-rc.3"
+    "@types/node": "^13.9.0",
+    "babel-loader": "^8.0.6"
   }
 }

@@ -1,16 +1,6 @@
 {
   "five_pointed_star.svg": {
-    "size": 3572,
-    "title": "Five pointed star",
-    "description": "five pointed star shape",
-    "keywords": [
-      "basic shapes",
-      "star",
-      "five pointed star",
-      "1-2 years"
-    ],
-    "date": "2020-03-10",
-    "path": "images/five_pointed_star.svg",
+    "size": 3340,
     "difficulty": {
       "totalAreas": 2,
       "smallAreas": 0,
@@ -18,36 +8,44 @@
       "difficultyNumber": 2
     }
   },
+  "little_pony.svg": {
+    "size": 168332,
+    "difficulty": {
+      "totalAreas": 89,
+      "smallAreas": 21,
+      "mediumAreas": 16,
+      "difficultyNumber": 155
+    }
+  },
   "octo.svg": {
-    "size": 877939,
-    "title": "Octo",
-    "description": "Underwater world with octopus and turtle",
-    "keywords": [
-      "Underwater",
-      "sea creatures",
-      "octopus",
-      "5-6 years"
-    ],
-    "date": "2020-03-10",
-    "path": "images/octo.svg",
+    "size": 431724,
     "difficulty": {
       "totalAreas": 183,
-      "smallAreas": 40,
-      "mediumAreas": 20,
-      "difficultyNumber": 293
+      "smallAreas": 23,
+      "mediumAreas": 38,
+      "difficultyNumber": 286
+    }
+  },
+  "owl.svg": {
+    "size": 109389,
+    "difficulty": {
+      "totalAreas": 67,
+      "smallAreas": 1,
+      "mediumAreas": 3,
+      "difficultyNumber": 74
+    }
+  },
+  "santa_and_rudolf.svg": {
+    "size": 78040,
+    "difficulty": {
+      "totalAreas": 41,
+      "smallAreas": 3,
+      "mediumAreas": 3,
+      "difficultyNumber": 52
     }
   },
   "square.svg": {
-    "size": 1292,
-    "title": "Square",
-    "description": "Square",
-    "keywords": [
-      "basic shapes",
-      "square",
-      "1-2 years"
-    ],
-    "date": "2020-03-10",
-    "path": "images/square.svg",
+    "size": 1081,
     "difficulty": {
       "totalAreas": 2,
       "smallAreas": 0,

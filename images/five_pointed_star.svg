@@ -15,12 +15,6 @@
   <metadata
      id="metadata5">
     <rdf:RDF>
-    <rdf:Description about=""
-      dc:title="Five pointed star"
-      dc:description="five pointed star shape"
-      dc:keywords="basic shapes, star, five pointed star, 1-2 years"
-      dc:date="2020-03-10"
-    ></rdf:Description>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
