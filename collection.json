@@ -1,0 +1,39 @@
+{
+  "octo.svg": {
+    "size": 877939,
+    "title": "Octo",
+    "description": "Underwater world with octopus and turtle",
+    "keywords": [
+      "Underwater",
+      "sea creatures",
+      "octopus",
+      "5-6 years"
+    ],
+    "date": "2020-03-10",
+    "path": "images/octo.svg",
+    "difficulty": {
+      "totalAreas": 183,
+      "smallAreas": 40,
+      "mediumAreas": 29,
+      "difficultyNumber": 401
+    }
+  },
+  "square.svg": {
+    "size": 1292,
+    "title": "Square",
+    "description": "Square",
+    "keywords": [
+      "basic shapes",
+      "square",
+      "1-2 years"
+    ],
+    "date": "2020-03-10",
+    "path": "images/square.svg",
+    "difficulty": {
+      "totalAreas": 2,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 2
+    }
+  }
+}

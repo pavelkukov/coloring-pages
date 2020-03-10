@@ -1,0 +1,36 @@
+{
+  "name": "coloring-pages",
+  "version": "0.0.1",
+  "description": "Collection of coloring pages for kids in vector format (SVG)",
+  "private": true,
+  "scripts": {
+    "build": "ts-node ./generateCollectionData.ts",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelkukov/coloring-pages.git"
+  },
+  "keywords": [
+    "coloring",
+    "pages"
+  ],
+  "author": "Pavel Kukov <pavelkukov@gmail.com>",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/pavelkukov/coloring-pages/issues"
+  },
+  "homepage": "https://github.com/pavelkukov/coloring-pages#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "babel-loader": "^8.0.6",
+    "canvas": "^2.6.1",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
