@@ -27,3 +27,6 @@ Pavel Kukov <pavelkukov@gmail.com>
 
 ## © LICENSE (CC BY-SA 4.0)
 See LICENSE in the root directory
+
+## Acknowledgments
+See: [Acknowledgments.md](Acknowledgments.md)
