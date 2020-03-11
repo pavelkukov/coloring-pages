@@ -1,13 +1,6 @@
 import * as fs from "fs";
 import DifficultyEstimator, { Difficulty } from "./utils/DifficultyEstimator";
 
-const targetFiles = process.argv.slice(2).map(filePath => {
-  return filePath
-    .replace("\\", "/")
-    .split("/")
-    .pop();
-});
-
 type CollectionItem = {
   size: number;
   difficulty: Difficulty;
@@ -16,6 +9,13 @@ type Collection = {
   [key: string]: CollectionItem;
 };
 const collection: Collection = require("./collection.json");
+
+const targetFiles = process.argv.slice(2).map(filePath => {
+  return filePath
+    .replace("\\", "/")
+    .split("/")
+    .pop();
+});
 
 async function fileDetails(file: string): Promise<CollectionItem> {
   const { size } = fs.statSync(`${__dirname}/images/${file}`);
@@ -44,6 +44,5 @@ async function collectData() {
 
   fs.writeFileSync("./collection.json", JSON.stringify(collection, null, "  "));
 }
-
 
 collectData();
