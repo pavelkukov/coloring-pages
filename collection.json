@@ -36,12 +36,12 @@
     }
   },
   "santa_and_rudolf.svg": {
-    "size": 78040,
+    "size": 77753,
     "difficulty": {
-      "totalAreas": 41,
+      "totalAreas": 42,
       "smallAreas": 3,
       "mediumAreas": 3,
-      "difficultyNumber": 52
+      "difficultyNumber": 53
     }
   },
   "square.svg": {
