@@ -3,8 +3,7 @@ import { storiesOf } from "@storybook/react";
 import collection from "../collection";
 
 Object.keys(collection).forEach(fileName => {
-  const path = collection[fileName].path;
-  collection[fileName].module = require(`../${path}`);
+  collection[fileName].module = require(`../images/${fileName}`);
 });
 
 export default {
@@ -13,7 +12,7 @@ export default {
 
 const mainStory = storiesOf("Coloring Pages", module);
 
-const ImageBlock = ({ fileName, module, path, difficulty, keywords }) => {
+const ImageBlock = ({ fileName, module, difficulty }) => {
   return (
     <div style={{maxWidth: 'calc(100% - 80px)'}}>
       <img
@@ -26,15 +25,16 @@ const ImageBlock = ({ fileName, module, path, difficulty, keywords }) => {
         src={module}
       />
       <h1>{fileName}</h1>
+      <h2>Estimated Difficulty</h2>
       <ul
         style={{
           padding: "10px 10px 0 10px",
           width: "100%"
         }}
       >
-        <li>difficulty: {difficulty}</li>
-        <li>keywords: {`"${keywords.join('", "')}"`}</li>
-        <li>path: {path}</li>
+        <li>total empty areas: {difficulty.totalAreas}</li>
+        <li>small areas: {difficulty.smallAreas}</li>
+        <li>medium-small areas: {difficulty.mediumAreas}</li>
       </ul>
     </div>
   );

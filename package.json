@@ -6,7 +6,13 @@
   "scripts": {
     "build": "ts-node ./generateCollectionData.ts",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "storybook-deployer": {
+    "gitUsername": "pavelkukov",
+    "gitEmail": "pavelkukov@gmail.com",
+    "commitMessage": "Deploy Storybook to GitHub Pages"
   },
   "repository": {
     "type": "git",
@@ -33,6 +39,7 @@
     "@storybook/addon-links": "^5.3.14",
     "@storybook/addons": "^5.3.14",
     "@storybook/react": "^5.3.14",
+    "@storybook/storybook-deployer": "^2.8.3",
     "@types/node": "^13.9.0",
     "babel-loader": "^8.0.6"
   }
