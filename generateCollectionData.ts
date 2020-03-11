@@ -27,7 +27,7 @@ async function fileDetails(file: string): Promise<CollectionItem> {
   };
 }
 
-function collectData() {
+async function collectData() {
   const promisses = [];
   fs.readdirSync("images").forEach(file => {
     if (targetFiles.length && !targetFiles.includes(file)) {
@@ -40,12 +40,9 @@ function collectData() {
     promisses.push(promise);
   });
 
-  Promise.all(promisses).then(() => {
-    fs.writeFileSync(
-      "./collection.json",
-      JSON.stringify(collection, null, "  ")
-    );
-  });
+  await Promise.all(promisses);
+
+  fs.writeFileSync("./collection.json", JSON.stringify(collection, null, "  "));
 }
 
 collectData();
