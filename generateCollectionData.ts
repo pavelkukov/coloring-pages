@@ -45,7 +45,5 @@ async function collectData() {
   fs.writeFileSync("./collection.json", JSON.stringify(collection, null, "  "));
 }
 
-process.nextTick(async () => {
-    await collectData();
-    setTimeout(() => {}, 10000)
-})
+
+collectData();

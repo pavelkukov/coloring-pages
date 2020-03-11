@@ -17,7 +17,8 @@
   "lint-staged": {
     "images/*.svg": [
       "npm run build",
-      "git add"
+      "git add",
+      "npm run build"
     ]
   },
   "storybook-deployer": {
