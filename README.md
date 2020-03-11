@@ -1,6 +1,6 @@
 # Coloring Pages
 Coloring pages for kids in vector format (SVG). Each image is drawn with pure black lines on a transparent background.
-A list of all images from the "images" folder plus difficulty estimate per image is generated as "./collection.json". The difficulty calculation is based on the number of empty areas and their sizes.
+A list of all files from the "images" folder plus difficulty estimate per drawing is generated as "./collection.json". The difficulty calculation is based on the number of empty areas and their sizes.
 
 ## Preview pictures
 All pictures are listed in a storybook.
