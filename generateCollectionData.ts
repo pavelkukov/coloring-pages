@@ -45,4 +45,6 @@ async function collectData() {
   fs.writeFileSync("./collection.json", JSON.stringify(collection, null, "  "));
 }
 
-collectData();
+process.nextTick(async () => {
+    await collectData();
+})
