@@ -1,18 +1,21 @@
 # Coloring Pages
 Coloring pages for kids in vector format (SVG). Each image is drawn with pure black lines on a transparent background.
+A list of all images from the "images" folder plus difficulty estimate per image is generated as "./collection.json". The difficulty calculation is based on the number of empty areas and their sizes.
 
-## collection.json
-List of all images from the "images" folder with difficulty estimate per image.
+## Preview pictures
+All pictures are listed in a storybook.
+https://pavelkukov.github.io/coloring-pages/
 
 ## Difficulty calculation
-The difficulty is calculated based on fill areas and their size. An image with many small areas to fill is considered more difficult.
+The difficulty is calculated based on the number of empty areas and their sizes.
+See: `utils/DifficultyEstimator.ts` for details.
 
 ```
 type Difficulty = {
     totalAreas: number;
     smallAreas: number;
     mediumAreas: number;
-    difficultyNumber: number;
+    difficultyNumber: number; // total + (medium * 1.5) + (small * 2)
 }
 ```
 
