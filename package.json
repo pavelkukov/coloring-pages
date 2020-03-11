@@ -16,8 +16,8 @@
   },
   "lint-staged": {
     "images/*.svg": [
-      "ts-node ./generateCollectionData.ts",
-      "exit 1"
+      "npm run build",
+      "git add"
     ]
   },
   "storybook-deployer": {
