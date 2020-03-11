@@ -78,12 +78,12 @@ export default class DifficultyEstimator {
     const areas = this.findFillSpaces();
     const sizes = Object.keys(areas).map(Number);
     const smallAreas = sizes
-      .filter(size => size <= 16)
+      .filter(size => size <= 100)
       .reduce((acc, val) => {
         return areas[val.toString()] + acc;
       }, 0);
     const mediumAreas = sizes
-      .filter(size => size > 16 && size <= 225)
+      .filter(size => size > 100 && size <= 400)
       .reduce((acc, val) => {
         return areas[val.toString()] + acc;
       }, 0);

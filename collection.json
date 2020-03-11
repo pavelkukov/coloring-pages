@@ -12,18 +12,18 @@
     "size": 168332,
     "difficulty": {
       "totalAreas": 113,
-      "smallAreas": 2,
-      "mediumAreas": 59,
-      "difficultyNumber": 206
+      "smallAreas": 25,
+      "mediumAreas": 40,
+      "difficultyNumber": 223
     }
   },
   "octo.svg": {
     "size": 431724,
     "difficulty": {
       "totalAreas": 213,
-      "smallAreas": 18,
-      "mediumAreas": 61,
-      "difficultyNumber": 341
+      "smallAreas": 53,
+      "mediumAreas": 38,
+      "difficultyNumber": 376
     }
   },
   "owl.svg": {
