@@ -47,4 +47,5 @@ async function collectData() {
 
 process.nextTick(async () => {
     await collectData();
+    setTimeout(() => {}, 1000)
 })
