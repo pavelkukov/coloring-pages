@@ -8,7 +8,13 @@ type CollectionItem = {
 type Collection = {
   [key: string]: CollectionItem;
 };
-const collection: Collection = require("./collection.json");
+let collection: Collection;
+
+try {
+  collection = require("./collection.json");
+} catch (e) {
+  collection = {};
+}
 
 const targetFiles = process.argv.slice(2).map(filePath => {
   return filePath

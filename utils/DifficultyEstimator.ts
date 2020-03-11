@@ -1,17 +1,18 @@
 import { Image, Canvas, ImageData, createCanvas, loadImage } from "canvas";
 import FloodFill from "./FloodFill";
 import { getColorAtPixel } from "./pixelColors";
+const ProgressBar = require("progress");
 
 type AreasInfo = {
-    [key: string]: number
-}
+  [key: string]: number;
+};
 
 export type Difficulty = {
-    totalAreas: number;
-    smallAreas: number;
-    mediumAreas: number;
-    difficultyNumber: number;
-}
+  totalAreas: number;
+  smallAreas: number;
+  mediumAreas: number;
+  difficultyNumber: number;
+};
 
 export default class DifficultyEstimator {
   imgPath: string;
@@ -20,16 +21,16 @@ export default class DifficultyEstimator {
   imageData: ImageData;
   width: number;
   height: number;
-  private _ignorePixelCoords: Array<string>; // e.g ['12|4', '3|4', ...'x|y']
+  private _ignorePixelCoords: Set<string>; // e.g ['12|4', '3|4', ...'x|y']
 
   constructor(imgPath: string) {
     this.imgPath = imgPath;
-    // A4 at 36 PPI
-    this.width = 298;
-    this.height = 421;
+    // A4 at 96 PPI
+    this.width = 1240;
+    this.height = 1754;
     this.canvas = createCanvas(this.width, this.height);
     this.ctx = this.canvas.getContext("2d");
-    this._ignorePixelCoords = [];
+    this._ignorePixelCoords = new Set();
   }
 
   testFill(x: number, y: number): number {
@@ -40,25 +41,34 @@ export default class DifficultyEstimator {
     floodFill.collectModifiedPixels = true;
     floodFill.fill("#f00", x, y, 20);
     floodFill.modifiedPixels.forEach(pixel => {
-      this._ignorePixelCoords.push(`${pixel.x}|${pixel.y}`);
+      this._ignorePixelCoords.add(`${pixel.x}|${pixel.y}`);
     });
     return floodFill.modifiedPixelsCount;
   }
 
   findFillSpaces(): AreasInfo {
     const areas: AreasInfo = {};
+    const bar = new ProgressBar(
+      `${this.imgPath.split("/").pop()} [:bar] | Elapsed::elapsed / ETA::eta`,
+      {
+        total: this.imageData.width * this.imageData.height
+      }
+    );
     for (let x = 0; x < this.imageData.width; x++) {
       for (let y = 0; y < this.imageData.height; y++) {
-        const pixelColor = getColorAtPixel(this.imageData, x, y);
-        const isTransparent = pixelColor['a'] === 0;
         const coordsStr = `${x}|${y}`;
-        if (isTransparent && !this._ignorePixelCoords.includes(coordsStr)) {
-          const areaSize = this.testFill(x, y);
-          areas[areaSize] = (areas[areaSize] || 0) + 1
+        bar.tick();
+        if (!this._ignorePixelCoords.has(coordsStr)) {
+          const pixelColor = getColorAtPixel(this.imageData, x, y);
+          const isTransparent = pixelColor["a"] === 0;
+          if (isTransparent) {
+            const areaSize = this.testFill(x, y);
+            areas[areaSize] = (areas[areaSize] || 0) + 1;
+          }
         }
       }
     }
-    return areas
+    return areas;
   }
 
   async estimate(): Promise<Difficulty> {
@@ -66,21 +76,26 @@ export default class DifficultyEstimator {
     this.drawImageContain(image);
     this.imageData = this.ctx.getImageData(0, 0, this.width, this.height);
     const areas = this.findFillSpaces();
-    const sizes = Object.keys(areas).map(Number)
-    const smallAreas = sizes.filter(size => size <= 4).reduce((acc, val) => {
-        return areas[val.toString()] + acc
-    }, 0)
-    const mediumAreas = sizes.filter(size => size > 4 && size <= 25).reduce((acc, val) => {
-        return areas[val.toString()] + acc
-    }, 0)
+    const sizes = Object.keys(areas).map(Number);
+    const smallAreas = sizes
+      .filter(size => size <= 16)
+      .reduce((acc, val) => {
+        return areas[val.toString()] + acc;
+      }, 0);
+    const mediumAreas = sizes
+      .filter(size => size > 16 && size <= 300)
+      .reduce((acc, val) => {
+        return areas[val.toString()] + acc;
+      }, 0);
     const totalAreas = sizes.reduce((acc, val) => {
-        return areas[val.toString()] + acc
-    }, 0)
+      return areas[val.toString()] + acc;
+    }, 0);
     return {
-        totalAreas,
-        smallAreas,
-        mediumAreas,
-        difficultyNumber: (totalAreas + Math.ceil(mediumAreas * 1.5) + (smallAreas * 2))
+      totalAreas,
+      smallAreas,
+      mediumAreas,
+      difficultyNumber:
+        totalAreas + Math.ceil(mediumAreas * 1.5) + smallAreas * 2
     };
   }
 
