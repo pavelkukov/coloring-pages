@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Upload Storybook
 
 on: 
   push:
@@ -28,7 +28,7 @@ jobs:
     - uses: webfactory/ssh-agent@v0.2.0
       with:
           ssh-private-key: ${{ secrets.SSH_KEY }}
-    - run: git fetch origin gh-pages:gh-pages
+    - run: git fetch --quiet origin gh-pages:gh-pages
     - run: npm run deploy-storybook -- --ci
       env:
         CI: true
