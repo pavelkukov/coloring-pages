@@ -13,8 +13,8 @@
     "difficulty": {
       "totalAreas": 113,
       "smallAreas": 2,
-      "mediumAreas": 63,
-      "difficultyNumber": 212
+      "mediumAreas": 59,
+      "difficultyNumber": 206
     }
   },
   "octo.svg": {
@@ -22,8 +22,8 @@
     "difficulty": {
       "totalAreas": 213,
       "smallAreas": 18,
-      "mediumAreas": 66,
-      "difficultyNumber": 348
+      "mediumAreas": 61,
+      "difficultyNumber": 341
     }
   },
   "owl.svg": {

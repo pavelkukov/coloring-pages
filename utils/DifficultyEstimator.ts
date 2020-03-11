@@ -83,7 +83,7 @@ export default class DifficultyEstimator {
         return areas[val.toString()] + acc;
       }, 0);
     const mediumAreas = sizes
-      .filter(size => size > 16 && size <= 300)
+      .filter(size => size > 16 && size <= 225)
       .reduce((acc, val) => {
         return areas[val.toString()] + acc;
       }, 0);
