@@ -7,3 +7,4 @@
 * shark_jaws.svg - https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html
 * fishing_fish.svg - https://publicdomainvectors.org/en/free-clipart/Fishing-fish/82488.html
 * donkey.svg - https://publicdomainvectors.org/en/free-clipart/Donkey-vector-drawing/82214.html
+* horse_caricature.svg - https://publicdomainvectors.org/en/free-clipart/Horse-caricature/82390.html

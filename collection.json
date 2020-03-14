@@ -97,5 +97,16 @@
     },
     "date": "2020-03-13",
     "source": "https://publicdomainvectors.org/en/free-clipart/Donkey-vector-drawing/82214.html"
+  },
+  "horse_caricature.svg": {
+    "size": 39717,
+    "difficulty": {
+      "totalAreas": 40,
+      "smallAreas": 6,
+      "mediumAreas": 7,
+      "difficultyNumber": 63
+    },
+    "date": "2020-03-14",
+    "source": "https://publicdomainvectors.org/en/free-clipart/Horse-caricature/82390.html"
   }
 }
