@@ -108,5 +108,16 @@
     },
     "date": "2020-03-14",
     "source": "https://publicdomainvectors.org/en/free-clipart/Horse-caricature/82390.html"
+  },
+  "dragon.svg": {
+    "size": 266957,
+    "difficulty": {
+      "totalAreas": 172,
+      "smallAreas": 72,
+      "mediumAreas": 43,
+      "difficultyNumber": 381
+    },
+    "date": "2014-03-14",
+    "source": "https://publicdomainvectors.org/en/free-clipart/Dragon-ready-to-fly-in-black-and-white/81797.html"
   }
 }
