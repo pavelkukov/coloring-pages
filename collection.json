@@ -1,15 +1,15 @@
 {
   "five_pointed_star.svg": {
-    "size": 3340,
+    "size": 3480,
     "difficulty": {
-      "totalAreas": 2,
+      "totalAreas": 3,
       "smallAreas": 0,
       "mediumAreas": 0,
-      "difficultyNumber": 2
+      "difficultyNumber": 3
     }
   },
   "little_pony.svg": {
-    "size": 168332,
+    "size": 168422,
     "difficulty": {
       "totalAreas": 113,
       "smallAreas": 25,
@@ -18,7 +18,7 @@
     }
   },
   "octo.svg": {
-    "size": 431724,
+    "size": 343057,
     "difficulty": {
       "totalAreas": 213,
       "smallAreas": 53,
@@ -27,16 +27,16 @@
     }
   },
   "owl.svg": {
-    "size": 109389,
+    "size": 109701,
     "difficulty": {
       "totalAreas": 62,
-      "smallAreas": 1,
+      "smallAreas": 0,
       "mediumAreas": 2,
-      "difficultyNumber": 67
+      "difficultyNumber": 65
     }
   },
   "santa_and_rudolf.svg": {
-    "size": 77647,
+    "size": 77691,
     "difficulty": {
       "totalAreas": 39,
       "smallAreas": 2,
@@ -45,12 +45,21 @@
     }
   },
   "square.svg": {
-    "size": 1081,
+    "size": 1221,
     "difficulty": {
       "totalAreas": 2,
       "smallAreas": 0,
       "mediumAreas": 0,
       "difficultyNumber": 2
+    }
+  },
+  "shark_jaws.svg": {
+    "size": 8632,
+    "difficulty": {
+      "totalAreas": 27,
+      "smallAreas": 1,
+      "mediumAreas": 11,
+      "difficultyNumber": 46
     }
   }
 }
