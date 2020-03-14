@@ -17,7 +17,8 @@
   "lint-staged": {
     "images/*.svg": [
       "npm run build",
-      "git add *.json"
+      "git add *.json",
+      "git add *.md"
     ]
   },
   "storybook-deployer": {
@@ -40,9 +41,10 @@
   },
   "homepage": "https://github.com/pavelkukov/coloring-pages#readme",
   "dependencies": {
+    "canvas": "^2.6.1",
+    "cheerio": "^1.0.0-rc.3",
     "ts-node": "^8.6.2",
-    "typescript": "^3.8.3",
-    "canvas": "^2.6.1"
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",

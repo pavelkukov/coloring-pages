@@ -6,7 +6,9 @@
       "smallAreas": 0,
       "mediumAreas": 0,
       "difficultyNumber": 3
-    }
+    },
+    "date": "2020-03-12",
+    "source": ""
   },
   "little_pony.svg": {
     "size": 168422,
@@ -15,7 +17,9 @@
       "smallAreas": 25,
       "mediumAreas": 40,
       "difficultyNumber": 223
-    }
+    },
+    "date": "2020-03-11",
+    "source": "https://www.flickr.com/photos/76801207@N04/7043305357"
   },
   "octo.svg": {
     "size": 343057,
@@ -24,7 +28,9 @@
       "smallAreas": 53,
       "mediumAreas": 38,
       "difficultyNumber": 376
-    }
+    },
+    "date": "2020-03-01",
+    "source": "https://www.momjunction.com/print-coloring-image/93028/print/2014/09/The-underwater-birthday-card/"
   },
   "owl.svg": {
     "size": 109701,
@@ -33,7 +39,9 @@
       "smallAreas": 0,
       "mediumAreas": 2,
       "difficultyNumber": 65
-    }
+    },
+    "date": "2020-03-05",
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=58836&picture=owl-coloring-page-clipart"
   },
   "santa_and_rudolf.svg": {
     "size": 77691,
@@ -42,7 +50,9 @@
       "smallAreas": 2,
       "mediumAreas": 0,
       "difficultyNumber": 43
-    }
+    },
+    "date": "2020-03-10",
+    "source": "https://publicdomainvectors.org/en/free-clipart/Santa-and-raindeer-coloring-book-vector-illustration/18574.html"
   },
   "square.svg": {
     "size": 1221,
@@ -51,7 +61,9 @@
       "smallAreas": 0,
       "mediumAreas": 0,
       "difficultyNumber": 2
-    }
+    },
+    "date": "2020-03-08",
+    "source": ""
   },
   "shark_jaws.svg": {
     "size": 8632,
@@ -60,7 +72,9 @@
       "smallAreas": 1,
       "mediumAreas": 11,
       "difficultyNumber": 46
-    }
+    },
+    "date": "2020-03-14",
+    "source": "https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html"
   },
   "fishing_fish.svg": {
     "size": 114879,
@@ -69,6 +83,19 @@
       "smallAreas": 48,
       "mediumAreas": 37,
       "difficultyNumber": 262
-    }
+    },
+    "date": "2020-03-14",
+    "source": "https://publicdomainvectors.org/en/free-clipart/Fishing-fish/82488.html"
+  },
+  "donkey.svg": {
+    "size": 22318,
+    "difficulty": {
+      "totalAreas": 25,
+      "smallAreas": 2,
+      "mediumAreas": 3,
+      "difficultyNumber": 34
+    },
+    "date": "2020-03-13",
+    "source": "https://publicdomainvectors.org/en/free-clipart/Donkey-vector-drawing/82214.html"
   }
 }
