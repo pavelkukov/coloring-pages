@@ -61,5 +61,14 @@
       "mediumAreas": 11,
       "difficultyNumber": 46
     }
+  },
+  "fishing_fish.svg": {
+    "size": 114879,
+    "difficulty": {
+      "totalAreas": 110,
+      "smallAreas": 48,
+      "mediumAreas": 37,
+      "difficultyNumber": 262
+    }
   }
 }
