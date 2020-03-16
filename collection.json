@@ -66,12 +66,12 @@
     "source": ""
   },
   "shark_jaws.svg": {
-    "size": 8632,
+    "size": 11399,
     "difficulty": {
       "totalAreas": 27,
-      "smallAreas": 1,
+      "smallAreas": 0,
       "mediumAreas": 11,
-      "difficultyNumber": 46
+      "difficultyNumber": 44
     },
     "date": "2020-03-14",
     "source": "https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html"
@@ -88,7 +88,7 @@
     "source": "https://publicdomainvectors.org/en/free-clipart/Fishing-fish/82488.html"
   },
   "donkey.svg": {
-    "size": 22318,
+    "size": 23765,
     "difficulty": {
       "totalAreas": 25,
       "smallAreas": 2,
