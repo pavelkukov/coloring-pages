@@ -1,4 +1,4 @@
-name: Upload Storybook
+name: Upload Storybook and release
 
 on: 
   push:
@@ -29,5 +29,8 @@ jobs:
       with:
           ssh-private-key: ${{ secrets.SSH_KEY }}
     - run: npm run deploy-storybook -- --ci
+    - run: npm run semantic-release
       env:
         CI: true
+        HUSKY_SKIP_HOOKS: 1
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
