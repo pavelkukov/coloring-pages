@@ -25,9 +25,9 @@ export default class DifficultyEstimator {
 
   constructor(imgPath: string) {
     this.imgPath = imgPath;
-    // A4 at 96 PPI
-    this.width = 1240;
-    this.height = 1754;
+    // 1240 is A4 paper size in pixels with 150 PPI printer
+    this.width = 992;
+    this.height = 1403;
     this.canvas = createCanvas(this.width, this.height);
     this.ctx = this.canvas.getContext("2d");
     this._ignorePixelCoords = new Set();

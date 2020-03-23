@@ -1,18 +1,18 @@
-export type PixelColor = {
+export type ColorRGBA = {
     r: number
     g: number
     b: number
     a: number
 }
 
-export const black: PixelColor = { r: 0, g: 0, b: 0, a: 255 }
-export const white: PixelColor = { r: 255, g: 255, b: 255, a: 255 }
+export const black: ColorRGBA = { r: 0, g: 0, b: 0, a: 255 }
+export const white: ColorRGBA = { r: 255, g: 255, b: 255, a: 255 }
 
 export function getColorAtPixel(
     imageData: ImageData,
     x: number,
     y: number,
-): PixelColor {
+): ColorRGBA {
     const { width, data } = imageData
     const startPos = 4 * (y * width + x)
     if (data[startPos + 3] === undefined) {
@@ -28,7 +28,7 @@ export function getColorAtPixel(
 
 export function setColorAtPixel(
     imageData: ImageData,
-    color: PixelColor,
+    color: ColorRGBA,
     x: number,
     y: number,
 ): void {
@@ -44,8 +44,8 @@ export function setColorAtPixel(
 }
 
 export function isSameColor(
-    a: PixelColor,
-    b: PixelColor,
+    a: ColorRGBA,
+    b: ColorRGBA,
     tolerance = 0,
 ): boolean {
     return !(
@@ -56,7 +56,7 @@ export function isSameColor(
     )
 }
 
-export function hex2PixelColor(hex: string, alpha = 255): PixelColor {
+export function hex2RGBA(hex: string, alpha = 255): ColorRGBA {
     let parsedHex = hex
     if (hex.indexOf('#') === 0) {
         parsedHex = hex.slice(1)
@@ -95,7 +95,7 @@ export function restoreBlacks(
     blacksData: ImageData,
     imgData: ImageData,
     area?: AreaRect,
-): void {
+): number {
     const areaX = (area && area.x) || 0
     const areaY = (area && area.y) || 0
     const areaW = (area && area.w) || blacksData.width
@@ -104,6 +104,7 @@ export function restoreBlacks(
     const sY = Math.max(0, areaY)
     const eX = sX + Math.min(blacksData.width, areaW)
     const eY = sY + Math.min(blacksData.height, areaH)
+    let modifiedPixels = 0
     if (blacksData && imgData) {
         if (blacksData.width !== imgData.width) {
             throw new Error("Cannot restore blacks. Width doesn't match.")
@@ -116,8 +117,10 @@ export function restoreBlacks(
                 const origColor = getColorAtPixel(blacksData, x, y)
                 if (isSameColor(black, origColor, 0)) {
                     setColorAtPixel(imgData, black, x, y)
+                    modifiedPixels += 1
                 }
             }
         }
     }
+    return modifiedPixels
 }

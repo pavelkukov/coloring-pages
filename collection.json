@@ -14,9 +14,9 @@
     "size": 168422,
     "difficulty": {
       "totalAreas": 113,
-      "smallAreas": 25,
-      "mediumAreas": 40,
-      "difficultyNumber": 223
+      "smallAreas": 57,
+      "mediumAreas": 9,
+      "difficultyNumber": 241
     },
     "date": "2020-03-11",
     "source": "https://www.flickr.com/photos/76801207@N04/7043305357"
@@ -24,10 +24,10 @@
   "octo.svg": {
     "size": 343057,
     "difficulty": {
-      "totalAreas": 213,
-      "smallAreas": 53,
-      "mediumAreas": 38,
-      "difficultyNumber": 376
+      "totalAreas": 216,
+      "smallAreas": 67,
+      "mediumAreas": 40,
+      "difficultyNumber": 410
     },
     "date": "2020-03-01",
     "source": "https://www.momjunction.com/print-coloring-image/93028/print/2014/09/The-underwater-birthday-card/"
@@ -46,10 +46,10 @@
   "santa_and_rudolf.svg": {
     "size": 77691,
     "difficulty": {
-      "totalAreas": 39,
-      "smallAreas": 2,
+      "totalAreas": 38,
+      "smallAreas": 1,
       "mediumAreas": 0,
-      "difficultyNumber": 43
+      "difficultyNumber": 40
     },
     "date": "2020-03-10",
     "source": "https://publicdomainvectors.org/en/free-clipart/Santa-and-raindeer-coloring-book-vector-illustration/18574.html"
@@ -69,9 +69,9 @@
     "size": 11399,
     "difficulty": {
       "totalAreas": 27,
-      "smallAreas": 0,
-      "mediumAreas": 11,
-      "difficultyNumber": 44
+      "smallAreas": 4,
+      "mediumAreas": 12,
+      "difficultyNumber": 53
     },
     "date": "2020-03-14",
     "source": "https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html"
@@ -79,10 +79,10 @@
   "fishing_fish.svg": {
     "size": 114879,
     "difficulty": {
-      "totalAreas": 110,
-      "smallAreas": 48,
-      "mediumAreas": 37,
-      "difficultyNumber": 262
+      "totalAreas": 98,
+      "smallAreas": 52,
+      "mediumAreas": 30,
+      "difficultyNumber": 247
     },
     "date": "2020-03-14",
     "source": "https://publicdomainvectors.org/en/free-clipart/Fishing-fish/82488.html"
@@ -91,8 +91,8 @@
     "size": 23765,
     "difficulty": {
       "totalAreas": 25,
-      "smallAreas": 2,
-      "mediumAreas": 3,
+      "smallAreas": 3,
+      "mediumAreas": 2,
       "difficultyNumber": 34
     },
     "date": "2020-03-13",
@@ -101,10 +101,10 @@
   "horse_caricature.svg": {
     "size": 39717,
     "difficulty": {
-      "totalAreas": 40,
-      "smallAreas": 6,
-      "mediumAreas": 7,
-      "difficultyNumber": 63
+      "totalAreas": 41,
+      "smallAreas": 10,
+      "mediumAreas": 6,
+      "difficultyNumber": 70
     },
     "date": "2020-03-14",
     "source": "https://publicdomainvectors.org/en/free-clipart/Horse-caricature/82390.html"
@@ -112,10 +112,10 @@
   "dragon.svg": {
     "size": 266970,
     "difficulty": {
-      "totalAreas": 175,
-      "smallAreas": 72,
-      "mediumAreas": 44,
-      "difficultyNumber": 385
+      "totalAreas": 176,
+      "smallAreas": 88,
+      "mediumAreas": 40,
+      "difficultyNumber": 412
     },
     "date": "2014-03-14",
     "source": "https://publicdomainvectors.org/en/free-clipart/Dragon-ready-to-fly-in-black-and-white/81797.html"

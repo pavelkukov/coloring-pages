@@ -1,0 +1,282 @@
+Statistical profiling result from v8.log, (14749 ticks, 1227 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  11038   74.8%          C:\ProgramData\nodejs\node.exe
+   1168    7.9%          C:\WINDOWS\SYSTEM32\ntdll.dll
+    118    0.8%          C:\WINDOWS\System32\KERNEL32.DLL
+      4    0.0%          C:\WINDOWS\System32\KERNELBASE.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+    603    4.1%   24.9%  LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+    206    1.4%    8.5%  LazyCompile: *getPixelNeighbour D:\repo\coloring-pages\utils\FloodFill.ts:144:22
+    188    1.3%    7.8%  LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    121    0.8%    5.0%  LazyCompile: *setPixelColor D:\repo\coloring-pages\utils\FloodFill.ts:124:18
+     11    0.1%    0.5%  LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+      9    0.1%    0.4%  LazyCompile: *scanJsDocToken D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:9974:32
+      8    0.1%    0.3%  LazyCompile: *scan D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:9332:22
+      6    0.0%    0.2%  LazyCompile: *parseJSDocCommentWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:24422:45
+      5    0.0%    0.2%  RegExp: [\\^$.*+?()[\]{}|]
+      4    0.0%    0.2%  LazyCompile: *parseOptionalJsdoc D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:25166:44
+      4    0.0%    0.2%  LazyCompile: *addMapping D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:74070:28
+      3    0.0%    0.1%  LazyCompile: *Tokenizer.getNextToken D:\repo\coloring-pages\node_modules\cheerio\node_modules\parse5\lib\tokenizer\index.js:228:45
+      2    0.0%    0.1%  LazyCompile: *declareSymbol D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:30355:31
+      2    0.0%    0.1%  LazyCompile: *createNode D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:19617:28
+      1    0.0%    0.0%  RegExp: [^\u0130\u0131\u00DFa-z0-9\\/:\-_\. ]+
+      1    0.0%    0.0%  LazyCompile: *visitNode D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:18430:23
+      1    0.0%    0.0%  LazyCompile: *tryParse D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:19515:26
+      1    0.0%    0.0%  LazyCompile: *token D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:19438:23
+      1    0.0%    0.0%  LazyCompile: *speculationHelper D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:10052:35
+      1    0.0%    0.0%  LazyCompile: *resolve path.js:130:10
+      1    0.0%    0.0%  LazyCompile: *parseIdentifierName D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:19710:37
+      1    0.0%    0.0%  LazyCompile: *isListTerminator D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:19959:34
+      1    0.0%    0.0%  LazyCompile: *isListElement D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:19824:31
+      1    0.0%    0.0%  LazyCompile: *isIndexSignature D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:20846:34
+      1    0.0%    0.0%  LazyCompile: *isIdentifierPart D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:8750:30
+      1    0.0%    0.0%  LazyCompile: *isIdentifier D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:19519:30
+      1    0.0%    0.0%  LazyCompile: *isConflictMarkerTrivia D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:8531:36
+      1    0.0%    0.0%  LazyCompile: *hasDynamicName D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:15408:28
+      1    0.0%    0.0%  LazyCompile: *getIdentifierToken D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:9259:36
+      1    0.0%    0.0%  LazyCompile: *forEachChild D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:18467:26
+      1    0.0%    0.0%  LazyCompile: *equateValues D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:1630:26
+      1    0.0%    0.0%  LazyCompile: *createSymbol D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:30238:30
+      1    0.0%    0.0%  LazyCompile: *bindContainer D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:30519:31
+      1    0.0%    0.0%  LazyCompile: *bind D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:32116:22
+      1    0.0%    0.0%  LazyCompile: *attributeValueDoubleQuotedState D:\repo\coloring-pages\node_modules\cheerio\node_modules\parse5\lib\tokenizer\index.js:1462:82
+      1    0.0%    0.0%  LazyCompile: *<anonymous> D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:24439:74
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+   1194    8.1%   49.3%  JavaScript
+      0    0.0%    0.0%  C++
+   2086   14.1%   86.2%  GC
+  12328   83.6%          Shared libraries
+   1227    8.3%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  11038   74.8%  C:\ProgramData\nodejs\node.exe
+   3178   28.8%    LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+   3178  100.0%      LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+   3178  100.0%        C:\ProgramData\nodejs\node.exe
+   2818   25.5%    C:\ProgramData\nodejs\node.exe
+   1573   55.8%      LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+   1573  100.0%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+   1573  100.0%          C:\ProgramData\nodejs\node.exe
+    561   19.9%      C:\ProgramData\nodejs\node.exe
+    393   70.1%        LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    393  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    393  100.0%            C:\ProgramData\nodejs\node.exe
+     75   13.4%        LazyCompile: *setPixelColor D:\repo\coloring-pages\utils\FloodFill.ts:124:18
+     75  100.0%          LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+     68   90.7%            LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+      7    9.3%            LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+     31    5.5%        RegExp: [\\^$.*+?()[\]{}|]
+     31  100.0%          C:\ProgramData\nodejs\node.exe
+     31  100.0%            LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     29    5.2%        LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     24   82.8%          LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+     24  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+      5   17.2%          LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+      5  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     18    3.2%        LazyCompile: *addMapping D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:74070:28
+     18  100.0%          C:\ProgramData\nodejs\node.exe
+     18  100.0%            LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+    100    3.5%      LazyCompile: ~cursorTo readline.js:1203:18
+    100  100.0%        LazyCompile: ~WriteStream.cursorTo tty.js:144:42
+     91   91.0%          LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     91  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+      6    6.0%          LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+      6  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+      2    2.0%          LazyCompile: *declareSymbol D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:30355:31
+      2  100.0%            LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+      1    1.0%          LazyCompile: ~ProgressBar.render D:\repo\coloring-pages\node_modules\progress\lib\node-progress.js:117:41
+      1  100.0%            LazyCompile: ~ProgressBar.tick D:\repo\coloring-pages\node_modules\progress\lib\node-progress.js:83:38
+     82    2.9%      LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+     71   86.6%        LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     71  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     71  100.0%            C:\ProgramData\nodejs\node.exe
+     11   13.4%        LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+     11  100.0%          LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+      6   54.5%            LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+      5   45.5%            LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+     65    2.3%      LazyCompile: ~wrapSafe internal/modules/cjs/loader.js:1055:18
+     65  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1111:37
+     65  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1166:37
+     65  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:989:33
+     44    1.6%      LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+     43   97.7%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     43  100.0%          C:\ProgramData\nodejs\node.exe
+      1    2.3%        LazyCompile: *parseParameter D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:20737:32
+      1  100.0%          LazyCompile: *fillSignature D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:20770:31
+      1  100.0%            LazyCompile: ~parseFunctionDeclaration D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:23671:42
+     33    1.2%      LazyCompile: ~clearLine readline.js:1263:19
+     33  100.0%        LazyCompile: ~WriteStream.clearLine tty.js:152:43
+     31   93.9%          LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     31  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+      2    6.1%          LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+      2  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+   1234   11.2%    LazyCompile: *getPixelNeighbour D:\repo\coloring-pages\utils\FloodFill.ts:144:22
+   1234  100.0%      LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+   1040   84.3%        LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+   1040  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+   1040  100.0%            C:\ProgramData\nodejs\node.exe
+    191   15.5%        LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+    191  100.0%          LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+    161   84.3%            LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     30   15.7%            LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+   1092    9.9%    LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+    928   85.0%      LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    928  100.0%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    928  100.0%          C:\ProgramData\nodejs\node.exe
+    161   14.7%      LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+    161  100.0%        LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+    130   80.7%          LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    130  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     31   19.3%          LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+     31  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    291    2.6%    LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    291  100.0%      C:\ProgramData\nodejs\node.exe
+    270    2.4%    LazyCompile: *setPixelColor D:\repo\coloring-pages\utils\FloodFill.ts:124:18
+    270  100.0%      LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+    232   85.9%        LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    232  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    232  100.0%            C:\ProgramData\nodejs\node.exe
+     37   13.7%        LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+     37  100.0%          LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     29   78.4%            LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+      8   21.6%            LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+    179    1.6%    LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+    178   99.4%      LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    178  100.0%        C:\ProgramData\nodejs\node.exe
+    116    1.1%    RegExp: [\\^$.*+?()[\]{}|]
+    116  100.0%      C:\ProgramData\nodejs\node.exe
+    116  100.0%        LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     67   57.8%          LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     67  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     49   42.2%          LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+     49  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+
+   1227    8.3%  UNKNOWN
+    547   44.6%    LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+    471   86.1%      LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    471  100.0%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    471  100.0%          C:\ProgramData\nodejs\node.exe
+     76   13.9%      LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+     76  100.0%        LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     62   81.6%          LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     62  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     14   18.4%          LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+     14  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    299   24.4%    LazyCompile: *getPixelNeighbour D:\repo\coloring-pages\utils\FloodFill.ts:144:22
+    299  100.0%      LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+    243   81.3%        LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    243  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    243  100.0%            C:\ProgramData\nodejs\node.exe
+     56   18.7%        LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+     56  100.0%          LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     50   89.3%            LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+      6   10.7%            LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+    185   15.1%    C:\ProgramData\nodejs\node.exe
+    106   57.3%      LazyCompile: ~drawImageContain D:\repo\coloring-pages\utils\DifficultyEstimator.ts:76:21
+    106  100.0%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    106  100.0%          C:\ProgramData\nodejs\node.exe
+     46   24.9%      LazyCompile: ~setSource D:\repo\coloring-pages\node_modules\canvas\lib\image.js:90:19
+     46  100.0%        LazyCompile: ~set D:\repo\coloring-pages\node_modules\canvas\lib\image.js:33:6
+     46  100.0%          C:\ProgramData\nodejs\node.exe
+     46  100.0%            LazyCompile: ~<anonymous> D:\repo\coloring-pages\node_modules\canvas\index.js:23:22
+     21   11.4%      LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     21  100.0%        C:\ProgramData\nodejs\node.exe
+      7    3.8%      LazyCompile: ~Canvas.getContext D:\repo\coloring-pages\node_modules\canvas\lib\canvas.js:23:40
+      7  100.0%        LazyCompile: ~DifficultyEstimator D:\repo\coloring-pages\utils\DifficultyEstimator.ts:8:16
+      7  100.0%          LazyCompile: ~fileDetails D:\repo\coloring-pages\generateCollectionData.ts:19:27
+      7  100.0%            LazyCompile: ~<anonymous> D:\repo\coloring-pages\generateCollectionData.ts:37:38
+      4    2.2%      LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+      4  100.0%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+      4  100.0%          C:\ProgramData\nodejs\node.exe
+    123   10.0%    LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    123  100.0%      LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    123  100.0%        C:\ProgramData\nodejs\node.exe
+     41    3.3%    LazyCompile: *setPixelColor D:\repo\coloring-pages\utils\FloodFill.ts:124:18
+     41  100.0%      LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+     34   82.9%        LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     34  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     34  100.0%            C:\ProgramData\nodejs\node.exe
+      7   17.1%        LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+      7  100.0%          LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+      4   57.1%            LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+      3   42.9%            LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+
+   1168    7.9%  C:\WINDOWS\SYSTEM32\ntdll.dll
+    470   40.2%    C:\ProgramData\nodejs\node.exe
+    257   54.7%      C:\ProgramData\nodejs\node.exe
+    215   83.7%        LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    215  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    215  100.0%            C:\ProgramData\nodejs\node.exe
+     17    6.6%        RegExp: [\\^$.*+?()[\]{}|]
+     17  100.0%          C:\ProgramData\nodejs\node.exe
+     17  100.0%            LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     14    5.4%        LazyCompile: *addMapping D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:74070:28
+     14  100.0%          C:\ProgramData\nodejs\node.exe
+     14  100.0%            LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+      6    2.3%        LazyCompile: *setPixelColor D:\repo\coloring-pages\utils\FloodFill.ts:124:18
+      6  100.0%          LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+      6  100.0%            LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    156   33.2%      LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    156  100.0%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    156  100.0%          C:\ProgramData\nodejs\node.exe
+     11    2.3%      LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+     11  100.0%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     11  100.0%          C:\ProgramData\nodejs\node.exe
+
+    603    4.1%  LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+    522   86.6%    LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    522  100.0%      LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    522  100.0%        C:\ProgramData\nodejs\node.exe
+     80   13.3%    LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+     80  100.0%      LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     65   81.3%        LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     65  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     65  100.0%            C:\ProgramData\nodejs\node.exe
+     15   18.8%        LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+     15  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     15  100.0%            C:\ProgramData\nodejs\node.exe
+
+    206    1.4%  LazyCompile: *getPixelNeighbour D:\repo\coloring-pages\utils\FloodFill.ts:144:22
+    160   77.7%    LazyCompile: *fillQueue D:\repo\coloring-pages\utils\FloodFill.ts:90:14
+    136   85.0%      LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    136  100.0%        LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    136  100.0%          C:\ProgramData\nodejs\node.exe
+     24   15.0%      LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+     24  100.0%        LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+     19   79.2%          LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     19  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+      5   20.8%          LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+      5  100.0%            LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     34   16.5%    LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+     34  100.0%      LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+     34  100.0%        C:\ProgramData\nodejs\node.exe
+     12    5.8%    LazyCompile: ~fill D:\repo\coloring-pages\utils\FloodFill.ts:65:9
+     12  100.0%      LazyCompile: ~testFill D:\repo\coloring-pages\utils\DifficultyEstimator.ts:17:13
+      7   58.3%        LazyCompile: ~findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+      7  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+      7  100.0%            C:\ProgramData\nodejs\node.exe
+      5   41.7%        LazyCompile: *parseTypeWorker D:\repo\coloring-pages\node_modules\typescript\lib\typescript.js:21419:33
+      5  100.0%          LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+      5  100.0%            C:\ProgramData\nodejs\node.exe
+
+    188    1.3%  LazyCompile: *findFillSpaces D:\repo\coloring-pages\utils\DifficultyEstimator.ts:29:19
+    188  100.0%    LazyCompile: ~estimate D:\repo\coloring-pages\utils\DifficultyEstimator.ts:50:19
+    188  100.0%      C:\ProgramData\nodejs\node.exe
+
