@@ -3,34 +3,18 @@ import {
   setColorAtPixel,
   isSameColor,
   hex2RGBA,
-  restoreBlacks,
   black,
-  white,
   ColorRGBA,
-  AreaRect
 } from "./pixelColors";
+
 type PixelCoords = {
     x: number
     y: number
-    skip?: number
 }
 
-function getRandomInt(min: number, max: number): number {
-    min = Math.ceil(min)
-    max = Math.floor(max)
-    return Math.floor(Math.random() * (max - min + 1)) + min
-}
+type LineQueued = [number, number, number, number]
 
-function closestInteger(a: number, b: number): number {
-    const c1 = a - (a % b)
-    const c2 = a + b - (a % b)
-    if (a - c1 > c2 - a) {
-        return c2
-    } else {
-        return c1
-    }
-}
-
+// Inspired by QuickFill -> https://www.codeproject.com/Articles/6017/QuickFill-An-Efficient-Flood-Fill-Algorithm
 export default class FloodFill {
     public imageData: ImageData
     public bwData: ImageData | undefined
@@ -40,63 +24,32 @@ export default class FloodFill {
     public maxY: number | null = null
     public minY: number | null = null
 
-    public modifiedPixelsCount = 0
-    public collectModifiedPixels = false
-    public modifiedPixels: Array<PixelCoords> = []
+    public collectModifiedPixels: boolean
+    public modifiedPixels: Set<string>
+    public modifiedPixelsCount: number
 
     private _tolerance = 0
-    private _queue: Uint16Array
-    private _queuePointer: number
+    private _queue: Array<LineQueued>
     private _replacedColor: ColorRGBA
     private _newColor: ColorRGBA
-    private _bwDataSrc: ImageData 
 
     constructor(imageData: ImageData, bwData?: ImageData) {
         this.imageData = imageData
-        this.bwData =
-            bwData &&
-            new ImageData(
-                new Uint8ClampedArray(bwData.data),
-                bwData.width,
-                bwData.height,
-            )
-        this._bwDataSrc = bwData
-        this._queue = new Uint16Array(
-            Math.ceil(this.imageData.data.length * 0.667),
-        )
-        this._queuePointer = 0
+        this._queue = []
+        this.modifiedPixelsCount = 0
+        this.collectModifiedPixels = false
+        this.modifiedPixels = new Set()
     }
 
-    addToQueue(pixel: PixelCoords | null): void {
-        if (pixel === null) {
-            return
-        }
-        const len = this._queuePointer
-        const index = closestInteger(getRandomInt(0, len - 3), 3)
-        this._queue[this._queuePointer] = this._queue[index]
-        this._queuePointer += 1
-        this._queue[this._queuePointer] = this._queue[index + 1]
-        this._queuePointer += 1
-        this._queue[this._queuePointer] = this._queue[index + 2]
-        this._queuePointer += 1
-
-        this._queue[index] = pixel.skip | 0
-        this._queue[index + 1] = pixel.x | 0
-        this._queue[index + 2] = pixel.y | 0
+    addToQueue(line: LineQueued): void {
+        this._queue.push(line)
     }
 
-    popFromQueue(): PixelCoords | null {
-        if (this._queuePointer <= 0) {
+    popFromQueue(): LineQueued | null {
+        if (!this._queue.length) {
             return null
         }
-        this._queuePointer -= 1
-        const y = this._queue[this._queuePointer]
-        this._queuePointer -= 1
-        const x = this._queue[this._queuePointer]
-        this._queuePointer -= 1
-        const skip = this._queue[this._queuePointer]
-
-        return { x, y, skip }
+        return this._queue.pop()
     }
 
     fill(
@@ -114,7 +67,7 @@ export default class FloodFill {
             return
         }
 
-        this.addToQueue({ x, y, skip: 0 })
+        this.addToQueue([x, x, y, -1])
         if (immediateExec) {
             this.fillQueue(Number.MAX_SAFE_INTEGER)
         }
@@ -124,10 +77,6 @@ export default class FloodFill {
         if (pixel === null) {
             return
         }
-        if (this.bwData) {
-            const pixelColor = getColorAtPixel(this.bwData, pixel.x, pixel.y)
-            return isSameColor(pixelColor, white, 0)
-        }
         const pixelColor = getColorAtPixel(this.imageData, pixel.x, pixel.y)
         const isBlack = isSameColor(pixelColor, black, 0)
         return (
@@ -136,57 +85,77 @@ export default class FloodFill {
         )
     }
 
+    fillLineAt(x: number, y: number): [number, number] {
+        if (!this.isValidTarget({ x, y })) {
+            return [-1, -1]
+        }
+        this.setPixelColor(this._newColor, { x, y })
+        let minX = x
+        let maxX = x
+        let px = this.getPixelNeighbour('left', minX, y)
+        while (px && this.isValidTarget(px)) {
+            this.setPixelColor(this._newColor, px)
+            minX = px.x
+            px = this.getPixelNeighbour('left', minX, y)
+        }
+        px = this.getPixelNeighbour('right', maxX, y)
+        while (px && this.isValidTarget(px)) {
+            this.setPixelColor(this._newColor, px)
+            maxX = px.x
+            px = this.getPixelNeighbour('right', maxX, y)
+        }
+        return [minX, maxX]
+    }
+
     fillQueue(limit: number): { modifiedPixels: number; isReady: boolean } {
         const startWithNumPixels = this.modifiedPixelsCount
         let modifiedPixels = 0
-        let pixel = this.popFromQueue()
-        while (pixel && limit > 0) {
-            const isValidTarget = this.isValidTarget(pixel)
-            if (isValidTarget) {
-                pixel.skip !== 1 &&
-                    this.addToQueue(
-                        this.getPixelNeighbour('up', pixel.x, pixel.y),
-                    )
-                pixel.skip !== 2 &&
-                    this.addToQueue(
-                        this.getPixelNeighbour('right', pixel.x, pixel.y),
-                    )
-                pixel.skip !== 3 &&
-                    this.addToQueue(
-                        this.getPixelNeighbour('down', pixel.x, pixel.y),
-                    )
-                pixel.skip !== 4 &&
-                    this.addToQueue(
-                        this.getPixelNeighbour('left', pixel.x, pixel.y),
-                    )
-                this.setPixelColor(this._newColor, pixel)
+        let line = this.popFromQueue()
+        while (line && limit) {
+            const [start, end, y, parentY] = line
+            let currX = start
+            while (currX !== -1 && currX <= end) {
+                const [lineStart, lineEnd] = this.fillLineAt(currX, y)
+                if (lineStart !== -1) {
+                    if (
+                        lineStart >= start &&
+                        lineEnd <= end &&
+                        parentY !== -1
+                    ) {
+                        if (parentY < y && y + 1 < this.imageData.height) {
+                            this.addToQueue([lineStart, lineEnd, y + 1, y])
+                        }
+                        if (parentY > y && y > 0) {
+                            this.addToQueue([lineStart, lineEnd, y - 1, y])
+                        }
+                    } else {
+                        if (y > 0) {
+                            this.addToQueue([lineStart, lineEnd, y - 1, y])
+                        }
+                        if (y + 1 < this.imageData.height) {
+                            this.addToQueue([lineStart, lineEnd, y + 1, y])
+                        }
+                    }
+                }
+                if (lineEnd === -1 && currX <= end) {
+                    currX += 1
+                } else {
+                    currX = lineEnd + 1
+                }
             }
-            limit -= 1
-            if (limit > 0) {
-                pixel = this.popFromQueue()
+            limit--
+            if (limit) {
+                line = this.popFromQueue()
             }
         }
-        if (!pixel && this._bwDataSrc) {
-            const area: AreaRect = {
-                x: this.minX,
-                y: this.minY,
-                w: this.maxX - this.minX,
-                h: this.maxY - this.minY,
-            }
-            modifiedPixels += restoreBlacks(
-                this._bwDataSrc,
-                this.imageData,
-                area,
-            )
-        }
+
         modifiedPixels += this.modifiedPixelsCount - startWithNumPixels
 
-        return { modifiedPixels, isReady: this._queuePointer === 0 }
+        return { modifiedPixels, isReady: this._queue.length === 0 }
     }
 
     setPixelColor(color: ColorRGBA, pixel: PixelCoords): void {
         setColorAtPixel(this.imageData, color, pixel.x, pixel.y)
-        this.bwData && setColorAtPixel(this.bwData, black, pixel.x, pixel.y)
         if (!this.minX || pixel.x <= this.minX) {
             this.minX = pixel.x - 1
         }
@@ -199,14 +168,13 @@ export default class FloodFill {
         if (!this.maxY || pixel.y >= this.maxY) {
             this.maxY = pixel.y + 1
         }
-        this.modifiedPixelsCount += 1
-        if (this.collectModifiedPixels) {
-            this.modifiedPixels.push(pixel)
-        }
+        this.modifiedPixelsCount++
+        this.collectModifiedPixels &&
+            this.modifiedPixels.add(`${pixel.x}|${pixel.y}`)
     }
 
     getPixelNeighbour(
-        direction: 'up' | 'right' | 'down' | 'left',
+        direction: string,
         x: number,
         y: number,
     ): PixelCoords | null {
@@ -215,16 +183,16 @@ export default class FloodFill {
         let coords: PixelCoords
         switch (direction) {
             case 'up':
-                coords = { x, y: (y - 1) | 0, skip: 3 | 0 }
+                coords = { x, y: (y - 1) | 0 }
                 break
             case 'right':
-                coords = { x: (x + 1) | 0, y, skip: 4 | 0 }
+                coords = { x: (x + 1) | 0, y }
                 break
             case 'down':
-                coords = { x, y: (y + 1) | 0, skip: 1 | 0 }
+                coords = { x, y: (y + 1) | 0 }
                 break
             case 'left':
-                coords = { x: (x - 1) | 0, y, skip: 2 | 0 }
+                coords = { x: (x - 1) | 0, y }
                 break
         }
         if (

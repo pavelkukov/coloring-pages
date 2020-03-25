@@ -25,7 +25,7 @@ export default class DifficultyEstimator {
 
   constructor(imgPath: string) {
     this.imgPath = imgPath;
-    // 1240 is A4 paper size in pixels with 150 PPI printer
+    // 1240 x 1754 is A4 paper size in pixels with 150 PPI printer
     this.width = 992;
     this.height = 1403;
     this.canvas = createCanvas(this.width, this.height);
@@ -41,7 +41,7 @@ export default class DifficultyEstimator {
     floodFill.collectModifiedPixels = true;
     floodFill.fill("#f00", x, y, 20);
     floodFill.modifiedPixels.forEach(pixel => {
-      this._ignorePixelCoords.add(`${pixel.x}|${pixel.y}`);
+      this._ignorePixelCoords.add(pixel);
     });
     return floodFill.modifiedPixelsCount;
   }
