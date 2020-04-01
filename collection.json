@@ -170,12 +170,12 @@
     ]
   },
   "dove.svg": {
-    "size": 149044,
+    "size": 150359,
     "difficulty": {
-      "totalAreas": 33,
-      "smallAreas": 2,
-      "mediumAreas": 6,
-      "difficultyNumber": 46
+      "totalAreas": 35,
+      "smallAreas": 1,
+      "mediumAreas": 4,
+      "difficultyNumber": 43
     },
     "date": "2020-04-01",
     "source": "http://www.supercoloring.com/coloring-pages/dove-0",
