@@ -42,7 +42,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * magic-animals
 * shapes
 
-> totally 13 categories for 11 images
+> totally 13 categories for 12 images
 
 ## Generate `collection.json`
 

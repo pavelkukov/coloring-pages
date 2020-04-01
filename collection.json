@@ -168,5 +168,20 @@
       "boys",
       "8+"
     ]
+  },
+  "dove.svg": {
+    "size": 149044,
+    "difficulty": {
+      "totalAreas": 33,
+      "smallAreas": 2,
+      "mediumAreas": 6,
+      "difficultyNumber": 46
+    },
+    "date": "2020-04-01",
+    "source": "http://www.supercoloring.com/coloring-pages/dove-0",
+    "categories": [
+      "animals",
+      "4+"
+    ]
   }
 }
