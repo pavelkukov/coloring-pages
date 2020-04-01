@@ -38,11 +38,13 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * boys
 * caricatures
 * christmas
+* draw-cover
 * girls
+* landscape
 * magic-animals
 * shapes
 
-> totally 13 categories for 12 images
+> totally 15 categories for 12 images
 
 ## Generate `collection.json`
 

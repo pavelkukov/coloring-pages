@@ -170,7 +170,7 @@
     ]
   },
   "dove.svg": {
-    "size": 150359,
+    "size": 150440,
     "difficulty": {
       "totalAreas": 35,
       "smallAreas": 1,
@@ -181,7 +181,9 @@
     "source": "http://www.supercoloring.com/coloring-pages/dove-0",
     "categories": [
       "animals",
-      "4+"
+      "4+",
+      "draw-cover",
+      "landscape"
     ]
   }
 }
