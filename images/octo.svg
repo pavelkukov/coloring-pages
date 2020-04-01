@@ -23,6 +23,12 @@
         <dc:title>Octo</dc:title>
         <dc:date>2020-03-01</dc:date>
         <dc:source>https://www.momjunction.com/print-coloring-image/93028/print/2014/09/The-underwater-birthday-card/</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>animals</rdf:li>
+            <rdf:li>4+</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
       </cc:Work>
     </rdf:RDF>
   </metadata>

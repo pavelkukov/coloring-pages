@@ -25,6 +25,13 @@
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
         <dc:source>https://www.flickr.com/photos/76801207@N04/7043305357</dc:source>
         <dc:date>2020-03-11</dc:date>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>magic-animals</rdf:li>
+            <rdf:li>girls</rdf:li>
+            <rdf:li>4+</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">

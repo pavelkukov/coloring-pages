@@ -1,6 +1,6 @@
 {
   "five_pointed_star.svg": {
-    "size": 3480,
+    "size": 3638,
     "difficulty": {
       "totalAreas": 3,
       "smallAreas": 0,
@@ -8,10 +8,14 @@
       "difficultyNumber": 3
     },
     "date": "2020-03-12",
-    "source": ""
+    "source": "",
+    "categories": [
+      "shapes",
+      "1+"
+    ]
   },
   "little_pony.svg": {
-    "size": 168422,
+    "size": 168623,
     "difficulty": {
       "totalAreas": 113,
       "smallAreas": 57,
@@ -19,10 +23,15 @@
       "difficultyNumber": 241
     },
     "date": "2020-03-11",
-    "source": "https://www.flickr.com/photos/76801207@N04/7043305357"
+    "source": "https://www.flickr.com/photos/76801207@N04/7043305357",
+    "categories": [
+      "magic-animals",
+      "girls",
+      "4+"
+    ]
   },
   "octo.svg": {
-    "size": 343057,
+    "size": 343216,
     "difficulty": {
       "totalAreas": 216,
       "smallAreas": 67,
@@ -30,10 +39,14 @@
       "difficultyNumber": 410
     },
     "date": "2020-03-01",
-    "source": "https://www.momjunction.com/print-coloring-image/93028/print/2014/09/The-underwater-birthday-card/"
+    "source": "https://www.momjunction.com/print-coloring-image/93028/print/2014/09/The-underwater-birthday-card/",
+    "categories": [
+      "animals",
+      "4+"
+    ]
   },
   "owl.svg": {
-    "size": 109701,
+    "size": 109860,
     "difficulty": {
       "totalAreas": 62,
       "smallAreas": 0,
@@ -41,10 +54,14 @@
       "difficultyNumber": 65
     },
     "date": "2020-03-05",
-    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=58836&picture=owl-coloring-page-clipart"
+    "source": "https://www.publicdomainpictures.net/en/view-image.php?image=58836&picture=owl-coloring-page-clipart",
+    "categories": [
+      "animals",
+      "3+"
+    ]
   },
   "santa_and_rudolf.svg": {
-    "size": 77691,
+    "size": 77852,
     "difficulty": {
       "totalAreas": 38,
       "smallAreas": 1,
@@ -52,10 +69,14 @@
       "difficultyNumber": 40
     },
     "date": "2020-03-10",
-    "source": "https://publicdomainvectors.org/en/free-clipart/Santa-and-raindeer-coloring-book-vector-illustration/18574.html"
+    "source": "https://publicdomainvectors.org/en/free-clipart/Santa-and-raindeer-coloring-book-vector-illustration/18574.html",
+    "categories": [
+      "christmas",
+      "4+"
+    ]
   },
   "square.svg": {
-    "size": 1221,
+    "size": 1379,
     "difficulty": {
       "totalAreas": 2,
       "smallAreas": 0,
@@ -63,10 +84,14 @@
       "difficultyNumber": 2
     },
     "date": "2020-03-08",
-    "source": ""
+    "source": "",
+    "categories": [
+      "shapes",
+      "1+"
+    ]
   },
   "shark_jaws.svg": {
-    "size": 11399,
+    "size": 11486,
     "difficulty": {
       "totalAreas": 27,
       "smallAreas": 4,
@@ -74,10 +99,14 @@
       "difficultyNumber": 49
     },
     "date": "2020-03-14",
-    "source": "https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html"
+    "source": "https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html",
+    "categories": [
+      "animals",
+      "4+"
+    ]
   },
   "fishing_fish.svg": {
-    "size": 114894,
+    "size": 115093,
     "difficulty": {
       "totalAreas": 96,
       "smallAreas": 49,
@@ -85,10 +114,15 @@
       "difficultyNumber": 239
     },
     "date": "2020-03-14",
-    "source": "https://publicdomainvectors.org/en/free-clipart/Fishing-fish/82488.html"
+    "source": "https://publicdomainvectors.org/en/free-clipart/Fishing-fish/82488.html",
+    "categories": [
+      "caricatures",
+      "6+",
+      "18+"
+    ]
   },
   "donkey.svg": {
-    "size": 23778,
+    "size": 23979,
     "difficulty": {
       "totalAreas": 25,
       "smallAreas": 3,
@@ -96,10 +130,15 @@
       "difficultyNumber": 34
     },
     "date": "2020-03-13",
-    "source": "https://publicdomainvectors.org/en/free-clipart/Donkey-vector-drawing/82214.html"
+    "source": "https://publicdomainvectors.org/en/free-clipart/Donkey-vector-drawing/82214.html",
+    "categories": [
+      "animals",
+      "caricatures",
+      "4+"
+    ]
   },
   "horse_caricature.svg": {
-    "size": 39717,
+    "size": 39918,
     "difficulty": {
       "totalAreas": 41,
       "smallAreas": 10,
@@ -107,10 +146,15 @@
       "difficultyNumber": 70
     },
     "date": "2020-03-14",
-    "source": "https://publicdomainvectors.org/en/free-clipart/Horse-caricature/82390.html"
+    "source": "https://publicdomainvectors.org/en/free-clipart/Horse-caricature/82390.html",
+    "categories": [
+      "animals",
+      "caricatures",
+      "4+"
+    ]
   },
   "dragon.svg": {
-    "size": 266983,
+    "size": 267185,
     "difficulty": {
       "totalAreas": 176,
       "smallAreas": 88,
@@ -118,6 +162,11 @@
       "difficultyNumber": 412
     },
     "date": "2014-03-14",
-    "source": "https://publicdomainvectors.org/en/free-clipart/Dragon-ready-to-fly-in-black-and-white/81797.html"
+    "source": "https://publicdomainvectors.org/en/free-clipart/Dragon-ready-to-fly-in-black-and-white/81797.html",
+    "categories": [
+      "magic-animals",
+      "boys",
+      "8+"
+    ]
   }
 }

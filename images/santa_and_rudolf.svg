@@ -25,6 +25,12 @@
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
         <dc:date>2020-03-10</dc:date>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>christmas</rdf:li>
+            <rdf:li>4+</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
       </cc:Work>
       <cc:License
          rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">

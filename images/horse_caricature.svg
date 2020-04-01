@@ -23,6 +23,13 @@
         <dc:title>Horse Caricature</dc:title>
         <dc:date>2020-03-14</dc:date>
         <dc:source>https://publicdomainvectors.org/en/free-clipart/Horse-caricature/82390.html</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>animals</rdf:li>
+            <rdf:li>caricatures</rdf:li>
+            <rdf:li>4+</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
       </cc:Work>
     </rdf:RDF>
   </metadata>

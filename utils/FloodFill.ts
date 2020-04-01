@@ -182,14 +182,8 @@ export default class FloodFill {
         y = y | 0
         let coords: PixelCoords
         switch (direction) {
-            case 'up':
-                coords = { x, y: (y - 1) | 0 }
-                break
             case 'right':
                 coords = { x: (x + 1) | 0, y }
-                break
-            case 'down':
-                coords = { x, y: (y + 1) | 0 }
                 break
             case 'left':
                 coords = { x: (x - 1) | 0, y }
