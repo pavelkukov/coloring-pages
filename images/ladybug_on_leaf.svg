@@ -24,6 +24,7 @@
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
         <dc:title>Ladybug on leaf</dc:title>
         <dc:source>http://www.supercoloring.com/coloring-pages/ladybird-on-a-leaf</dc:source>
+        <dc:date>2020-04-02</dc:date>
         <dc:subject>
           <rdf:Bag>
             <rdf:li>landscape</rdf:li>
