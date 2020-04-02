@@ -203,7 +203,7 @@
     ]
   },
   "camel.svg": {
-    "size": 108162,
+    "size": 108196,
     "difficulty": {
       "totalAreas": 35,
       "smallAreas": 0,
@@ -216,7 +216,8 @@
       "csk",
       "animals",
       "camel",
-      "landscape"
+      "landscape",
+      "sizing-cover"
     ]
   },
   "cute_butterfly.svg": {
