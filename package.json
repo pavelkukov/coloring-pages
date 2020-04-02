@@ -16,11 +16,10 @@
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
     "semantic-release": "semantic-release",
-    "precommit": "npm run thumbnails&&lint-staged"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "precommit",
+      "pre-commit": "npm run thumbnails&&lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
