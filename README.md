@@ -38,11 +38,11 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * boys
 * caricatures
 * christmas
-* draw-cover
 * girls
 * landscape
 * magic-animals
 * shapes
+* sizing-cover
 
 > totally 15 categories for 12 images
 

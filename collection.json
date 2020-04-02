@@ -170,7 +170,7 @@
     ]
   },
   "dove.svg": {
-    "size": 150440,
+    "size": 150442,
     "difficulty": {
       "totalAreas": 35,
       "smallAreas": 1,
@@ -182,7 +182,7 @@
     "categories": [
       "animals",
       "4+",
-      "draw-cover",
+      "sizing-cover",
       "landscape"
     ]
   }
