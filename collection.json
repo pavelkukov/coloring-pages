@@ -1,6 +1,6 @@
 {
   "five_pointed_star.svg": {
-    "size": 3638,
+    "size": 3639,
     "difficulty": {
       "totalAreas": 3,
       "smallAreas": 0,
@@ -11,11 +11,11 @@
     "source": "",
     "categories": [
       "shapes",
-      "1+"
+      "csk"
     ]
   },
   "little_pony.svg": {
-    "size": 168623,
+    "size": 168624,
     "difficulty": {
       "totalAreas": 113,
       "smallAreas": 57,
@@ -27,7 +27,7 @@
     "categories": [
       "magic-animals",
       "girls",
-      "4+"
+      "csk"
     ]
   },
   "octo.svg": {
@@ -46,7 +46,7 @@
     ]
   },
   "owl.svg": {
-    "size": 109860,
+    "size": 109861,
     "difficulty": {
       "totalAreas": 62,
       "smallAreas": 0,
@@ -57,11 +57,11 @@
     "source": "https://www.publicdomainpictures.net/en/view-image.php?image=58836&picture=owl-coloring-page-clipart",
     "categories": [
       "animals",
-      "3+"
+      "csk"
     ]
   },
   "santa_and_rudolf.svg": {
-    "size": 77852,
+    "size": 77853,
     "difficulty": {
       "totalAreas": 38,
       "smallAreas": 1,
@@ -72,11 +72,11 @@
     "source": "https://publicdomainvectors.org/en/free-clipart/Santa-and-raindeer-coloring-book-vector-illustration/18574.html",
     "categories": [
       "christmas",
-      "4+"
+      "csk"
     ]
   },
   "square.svg": {
-    "size": 1379,
+    "size": 1380,
     "difficulty": {
       "totalAreas": 2,
       "smallAreas": 0,
@@ -87,11 +87,11 @@
     "source": "",
     "categories": [
       "shapes",
-      "1+"
+      "csk"
     ]
   },
   "shark_jaws.svg": {
-    "size": 11486,
+    "size": 11539,
     "difficulty": {
       "totalAreas": 27,
       "smallAreas": 4,
@@ -102,7 +102,7 @@
     "source": "https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html",
     "categories": [
       "animals",
-      "4+"
+      "csk"
     ]
   },
   "fishing_fish.svg": {
@@ -138,7 +138,7 @@
     ]
   },
   "horse_caricature.svg": {
-    "size": 39918,
+    "size": 39919,
     "difficulty": {
       "totalAreas": 41,
       "smallAreas": 10,
@@ -150,7 +150,7 @@
     "categories": [
       "animals",
       "caricatures",
-      "4+"
+      "csk"
     ]
   },
   "dragon.svg": {
@@ -170,7 +170,7 @@
     ]
   },
   "dove.svg": {
-    "size": 150442,
+    "size": 150443,
     "difficulty": {
       "totalAreas": 35,
       "smallAreas": 1,
@@ -181,7 +181,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/dove-0",
     "categories": [
       "animals",
-      "4+",
+      "csk",
       "sizing-cover",
       "landscape"
     ]

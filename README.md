@@ -28,9 +28,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 
 > Listed alphabetically -  a-z
 
-* 1+
 * 18+
-* 3+
 * 4+
 * 6+
 * 8+
@@ -38,13 +36,14 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * boys
 * caricatures
 * christmas
+* csk
 * girls
 * landscape
 * magic-animals
 * shapes
 * sizing-cover
 
-> totally 15 categories for 12 images
+> totally 14 categories for 12 images
 
 ## Generate `collection.json`
 
