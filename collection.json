@@ -185,5 +185,102 @@
       "sizing-cover",
       "landscape"
     ]
+  },
+  "bear_with_flower.svg": {
+    "size": 47531,
+    "difficulty": {
+      "totalAreas": 29,
+      "smallAreas": 2,
+      "mediumAreas": 2,
+      "difficultyNumber": 36
+    },
+    "date": "2020-04-02",
+    "source": "http://www.supercoloring.com/coloring-pages/cute-cartoon-bear",
+    "categories": [
+      "animals",
+      "bear",
+      "csk"
+    ]
+  },
+  "camel.svg": {
+    "size": 108162,
+    "difficulty": {
+      "totalAreas": 35,
+      "smallAreas": 0,
+      "mediumAreas": 4,
+      "difficultyNumber": 41
+    },
+    "date": "2020-04-02",
+    "source": "http://www.supercoloring.com/coloring-pages/camel-0",
+    "categories": [
+      "csk",
+      "animals",
+      "camel",
+      "landscape"
+    ]
+  },
+  "cute_butterfly.svg": {
+    "size": 44594,
+    "difficulty": {
+      "totalAreas": 20,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 20
+    },
+    "date": "2020-04-02",
+    "source": "http://www.supercoloring.com/coloring-pages/cute-butterfly-with-happy-smile",
+    "categories": [
+      "landscape",
+      "csk",
+      "insects"
+    ]
+  },
+  "cute_butterfly_flies_over_pumpkin.svg": {
+    "size": 66195,
+    "difficulty": {
+      "totalAreas": 50,
+      "smallAreas": 4,
+      "mediumAreas": 4,
+      "difficultyNumber": 64
+    },
+    "date": "2020-04-02",
+    "source": "http://www.supercoloring.com/coloring-pages/cute-butterfly-boy-flies-over-pumpkin",
+    "categories": [
+      "insects",
+      "butterfly",
+      "csk"
+    ]
+  },
+  "cute_cow.svg": {
+    "size": 59032,
+    "difficulty": {
+      "totalAreas": 36,
+      "smallAreas": 3,
+      "mediumAreas": 1,
+      "difficultyNumber": 44
+    },
+    "date": "2020-04-02",
+    "source": "http://www.supercoloring.com/coloring-pages/cute-cartoon-cow",
+    "categories": [
+      "animals",
+      "csk"
+    ]
+  },
+  "ladybug_on_leaf.svg": {
+    "size": 38574,
+    "difficulty": {
+      "totalAreas": 8,
+      "smallAreas": 3,
+      "mediumAreas": 0,
+      "difficultyNumber": 14
+    },
+    "date": "2020-03-01",
+    "source": "http://www.supercoloring.com/coloring-pages/ladybird-on-a-leaf",
+    "categories": [
+      "landscape",
+      "csk",
+      "insects",
+      "ladybug"
+    ]
   }
 }
