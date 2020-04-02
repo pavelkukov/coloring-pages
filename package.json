@@ -7,10 +7,16 @@
     "build": "ts-node ./generateCollectionData.ts",
     "build-prof": "node -r ts-node/register --prof --no-logfile-per-isolate ./generateCollectionData.ts",
     "profiler-report": "node --prof-process v8.log > build-profiler.txt",
+    "makepngs": "convert-svg-to-png --no-color --height=180 ./images/*.svg",
+    "clean:beforepngs": "rimraf \"./images/thumbnails/*\"",
+    "minpngs": "imagemin ./images/*.png --out-dir=./images/thumbnails/",
+    "clean:afterpngs": "rimraf ./images/*.png",
+    "thumbnails": "npm run makepngs&&npm run clean:beforepngs&&npm run minpngs&&npm run clean:afterpngs",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "precommit": "npm run thumbnails&&lint-staged"
   },
   "husky": {
     "hooks": {
@@ -22,7 +28,8 @@
     "images/*.svg": [
       "npm run build",
       "git add *.json",
-      "git add *.md"
+      "git add *.md",
+      "git add *.png"
     ]
   },
   "commitlint": {
@@ -71,9 +78,13 @@
     "@storybook/storybook-deployer": "^2.8.3",
     "@types/node": "^13.9.0",
     "babel-loader": "^8.0.6",
+    "convert-svg-to-png": "^0.5.0",
+    "copyfiles": "^2.2.0",
     "husky": "^4.2.3",
+    "imagemin-cli": "^5.1.0",
     "lint-staged": "^10.0.8",
     "progress": "^2.0.3",
+    "rimraf": "^3.0.2",
     "semantic-release": "^17.0.4"
   }
 }
