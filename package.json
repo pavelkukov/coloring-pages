@@ -15,11 +15,11 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run thumbnails&&lint-staged",
+      "pre-commit": "npm run thumbnails&&git add *.png&&lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -27,8 +27,7 @@
     "images/*.svg": [
       "npm run build",
       "git add *.json",
-      "git add *.md",
-      "git add *.png"
+      "git add *.md"
     ]
   },
   "commitlint": {
