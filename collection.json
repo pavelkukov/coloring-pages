@@ -187,12 +187,12 @@
     ]
   },
   "bear_with_flower.svg": {
-    "size": 47531,
+    "size": 49998,
     "difficulty": {
-      "totalAreas": 29,
+      "totalAreas": 17,
       "smallAreas": 2,
       "mediumAreas": 2,
-      "difficultyNumber": 36
+      "difficultyNumber": 24
     },
     "date": "2020-04-02",
     "source": "http://www.supercoloring.com/coloring-pages/cute-cartoon-bear",
@@ -268,12 +268,12 @@
     ]
   },
   "ladybug_on_leaf.svg": {
-    "size": 38613,
+    "size": 39474,
     "difficulty": {
-      "totalAreas": 8,
-      "smallAreas": 3,
+      "totalAreas": 7,
+      "smallAreas": 2,
       "mediumAreas": 0,
-      "difficultyNumber": 14
+      "difficultyNumber": 11
     },
     "date": "2020-04-02",
     "source": "http://www.supercoloring.com/coloring-pages/ladybird-on-a-leaf",
@@ -282,6 +282,103 @@
       "csk",
       "insects",
       "ladybug"
+    ]
+  },
+  "bunny_and_eggs.svg": {
+    "size": 64936,
+    "difficulty": {
+      "totalAreas": 49,
+      "smallAreas": 2,
+      "mediumAreas": 2,
+      "difficultyNumber": 56
+    },
+    "date": "2020-04-05",
+    "source": "http://www.supercoloring.com/coloring-pages/cute-easter-chick-bunny-and-eggs?tag=59110",
+    "categories": [
+      "csk",
+      "easter",
+      "bunny"
+    ]
+  },
+  "easter_basket.svg": {
+    "size": 6552,
+    "difficulty": {
+      "totalAreas": 12,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 12
+    },
+    "date": "2020-04-05",
+    "source": "http://www.supercoloring.com/coloring-pages/easter-basket-with-eggs",
+    "categories": [
+      "csk",
+      "easter",
+      "egg"
+    ]
+  },
+  "easter_egg.svg": {
+    "size": 18905,
+    "difficulty": {
+      "totalAreas": 30,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 30
+    },
+    "date": "2020-04-05",
+    "source": "http://www.supercoloring.com/coloring-pages/easter-egg-with-simple-flower-pattern",
+    "categories": [
+      "csk",
+      "easter",
+      "egg"
+    ]
+  },
+  "easter_egg_with_stars.svg": {
+    "size": 51983,
+    "difficulty": {
+      "totalAreas": 21,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 21
+    },
+    "date": "2020-04-05",
+    "source": "http://www.supercoloring.com/coloring-pages/easter-egg-with-stars",
+    "categories": [
+      "csk",
+      "easter",
+      "egg"
+    ]
+  },
+  "pumpkin.svg": {
+    "size": 36665,
+    "difficulty": {
+      "totalAreas": 9,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 9
+    },
+    "date": "2020-04-05",
+    "source": "http://www.supercoloring.com/coloring-pages/pumpkin-with-leaves",
+    "categories": [
+      "csk",
+      "vegetables",
+      "pumpkin"
+    ]
+  },
+  "two_easter_bunnies.svg": {
+    "size": 32829,
+    "difficulty": {
+      "totalAreas": 43,
+      "smallAreas": 1,
+      "mediumAreas": 3,
+      "difficultyNumber": 50
+    },
+    "date": "2020-04-05",
+    "source": "http://www.supercoloring.com/coloring-pages/two-easter-bunnies-with-egg",
+    "categories": [
+      "csk",
+      "easter",
+      "bunny",
+      "egg"
     ]
   }
 }
