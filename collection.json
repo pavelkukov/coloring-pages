@@ -380,5 +380,22 @@
       "bunny",
       "egg"
     ]
+  },
+  "e_is_for_egg.svg": {
+    "size": 49051,
+    "difficulty": {
+      "totalAreas": 25,
+      "smallAreas": 2,
+      "mediumAreas": 4,
+      "difficultyNumber": 35
+    },
+    "date": "2020-04-05",
+    "source": "http://www.supercoloring.com/coloring-pages/letter-e-is-for-egg",
+    "categories": [
+      "csk",
+      "easter",
+      "egg",
+      "letters"
+    ]
   }
 }

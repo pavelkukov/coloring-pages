@@ -47,13 +47,14 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * insects
 * ladybug
 * landscape
+* letters
 * magic-animals
 * pumpkin
 * shapes
 * sizing-cover
 * vegetables
 
-> totally 24 categories for 24 images
+> totally 25 categories for 25 images
 
 ## Generate `collection.json`
 
