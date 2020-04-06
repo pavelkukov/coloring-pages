@@ -429,5 +429,37 @@
       "spring",
       "flowers"
     ]
+  },
+  "spring_rain.svg": {
+    "size": 98044,
+    "difficulty": {
+      "totalAreas": 81,
+      "smallAreas": 7,
+      "mediumAreas": 19,
+      "difficultyNumber": 124
+    },
+    "date": "2020-04-06",
+    "source": "http://www.supercoloring.com/coloring-pages/spring-rain",
+    "categories": [
+      "csk",
+      "spring",
+      "rain"
+    ]
+  },
+  "summer_beach.svg": {
+    "size": 38613,
+    "difficulty": {
+      "totalAreas": 55,
+      "smallAreas": 10,
+      "mediumAreas": 11,
+      "difficultyNumber": 92
+    },
+    "date": "2020-04-06",
+    "source": "http://www.supercoloring.com/coloring-pages/summer-beach-scene",
+    "categories": [
+      "csk",
+      "beach",
+      "summer"
+    ]
   }
 }

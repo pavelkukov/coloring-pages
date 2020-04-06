@@ -25,3 +25,5 @@
 * e_is_for_egg.svg - http://www.supercoloring.com/coloring-pages/letter-e-is-for-egg
 * spring_bird.svg - http://www.supercoloring.com/coloring-pages/spring-bird
 * spring_flowers.svg - http://www.supercoloring.com/coloring-pages/spring-flowers-0
+* spring_rain.svg - http://www.supercoloring.com/coloring-pages/spring-rain
+* summer_beach.svg - http://www.supercoloring.com/coloring-pages/summer-beach-scene
