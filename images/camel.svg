@@ -36,7 +36,7 @@
             <rdf:li>animals</rdf:li>
             <rdf:li>camel</rdf:li>
             <rdf:li>landscape</rdf:li>
-			<rdf:li>sizing-cover</rdf:li>
+            <rdf:li>sizing-cover</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>

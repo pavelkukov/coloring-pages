@@ -203,7 +203,7 @@
     ]
   },
   "camel.svg": {
-    "size": 108196,
+    "size": 108205,
     "difficulty": {
       "totalAreas": 35,
       "smallAreas": 0,
@@ -399,7 +399,7 @@
     ]
   },
   "spring_bird.svg": {
-    "size": 95018,
+    "size": 95061,
     "difficulty": {
       "totalAreas": 32,
       "smallAreas": 11,
@@ -411,7 +411,8 @@
     "categories": [
       "csk",
       "spring",
-      "bird"
+      "bird",
+      "sizing-cover"
     ]
   },
   "spring_flowers.svg": {
@@ -431,7 +432,7 @@
     ]
   },
   "spring_rain.svg": {
-    "size": 98044,
+    "size": 98087,
     "difficulty": {
       "totalAreas": 81,
       "smallAreas": 7,
@@ -443,11 +444,12 @@
     "categories": [
       "csk",
       "spring",
-      "rain"
+      "rain",
+      "sizing-cover"
     ]
   },
   "summer_beach.svg": {
-    "size": 38613,
+    "size": 38656,
     "difficulty": {
       "totalAreas": 55,
       "smallAreas": 10,
@@ -459,7 +461,8 @@
     "categories": [
       "csk",
       "beach",
-      "summer"
+      "summer",
+      "sizing-cover"
     ]
   },
   "boy_surfer.svg": {

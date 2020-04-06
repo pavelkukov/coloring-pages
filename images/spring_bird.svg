@@ -35,6 +35,7 @@
             <rdf:li>csk</rdf:li>
             <rdf:li>spring</rdf:li>
             <rdf:li>bird</rdf:li>
+            <rdf:li>sizing-cover</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>
