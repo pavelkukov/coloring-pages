@@ -27,3 +27,4 @@
 * spring_flowers.svg - http://www.supercoloring.com/coloring-pages/spring-flowers-0
 * spring_rain.svg - http://www.supercoloring.com/coloring-pages/spring-rain
 * summer_beach.svg - http://www.supercoloring.com/coloring-pages/summer-beach-scene
+* boy_surfer.svg - http://www.supercoloring.com/coloring-pages/boy-surfer-0

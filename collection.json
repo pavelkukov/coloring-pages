@@ -461,5 +461,22 @@
       "beach",
       "summer"
     ]
+  },
+  "boy_surfer.svg": {
+    "size": 16161,
+    "difficulty": {
+      "totalAreas": 15,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 15
+    },
+    "date": "2020-04-06",
+    "source": "http://www.supercoloring.com/coloring-pages/boy-surfer-0",
+    "categories": [
+      "csk",
+      "beach",
+      "boy",
+      "surf"
+    ]
   }
 }
