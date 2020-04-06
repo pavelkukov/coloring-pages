@@ -23,3 +23,5 @@
 * pumpkin.svg - http://www.supercoloring.com/coloring-pages/pumpkin-with-leaves
 * two_easter_bunnies.svg - http://www.supercoloring.com/coloring-pages/two-easter-bunnies-with-egg
 * e_is_for_egg.svg - http://www.supercoloring.com/coloring-pages/letter-e-is-for-egg
+* spring_bird.svg - http://www.supercoloring.com/coloring-pages/spring-bird
+* spring_flowers.svg - http://www.supercoloring.com/coloring-pages/spring-flowers-0

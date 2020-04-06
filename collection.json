@@ -397,5 +397,37 @@
       "egg",
       "letters"
     ]
+  },
+  "spring_bird.svg": {
+    "size": 95018,
+    "difficulty": {
+      "totalAreas": 32,
+      "smallAreas": 11,
+      "mediumAreas": 4,
+      "difficultyNumber": 60
+    },
+    "date": "2020-04-06",
+    "source": "http://www.supercoloring.com/coloring-pages/spring-bird",
+    "categories": [
+      "csk",
+      "spring",
+      "bird"
+    ]
+  },
+  "spring_flowers.svg": {
+    "size": 108043,
+    "difficulty": {
+      "totalAreas": 89,
+      "smallAreas": 0,
+      "mediumAreas": 3,
+      "difficultyNumber": 94
+    },
+    "date": "2020-04-06",
+    "source": "http://www.supercoloring.com/coloring-pages/spring-flowers-0",
+    "categories": [
+      "csk",
+      "spring",
+      "flowers"
+    ]
   }
 }
