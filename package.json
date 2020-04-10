@@ -14,7 +14,7 @@
     "thumbnails": "npm run makepngs&&npm run clean:beforepngs&&npm run minpngs&&npm run clean:afterpngs",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "copy-to-ghpages": "copyfiles ./images/* storybook-static/static/src && copyfiles ./images/**/* storybook-static/static/src && copyfiles -f ./collection.json storybook-static/static/src && copyfiles -f ./package.json storybook-static/static/src",
+    "copy-to-ghpages": "copyfiles -f ./images/*.svg storybook-static/static/src && copyfiles -f ./images/thumbnails/*.png storybook-static/static/src/thumbnails && copyfiles -f ./collection.json storybook-static/static/src && copyfiles -f ./package.json storybook-static/static/src",
     "deploy-storybook": "storybook-to-ghpages",
     "semantic-release": "semantic-release",
     "warm": "ts-node ./jsDelivrWarmup.ts"
