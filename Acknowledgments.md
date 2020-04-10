@@ -32,3 +32,7 @@
 * b_is_for_bird.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/letter-b-is-for-bird
 * c_is_for_cake.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/letter-c-is-for-cake
 * d_is_for_donut.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/letter-d-is-for-donut
+* bitten_apple.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/cartoon-bitten-apple
+* chibi_princess.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/cute-chibi-princess
+* grape.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/grape-4
+* p_is_for_princess.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/letter-p-is-for-princess

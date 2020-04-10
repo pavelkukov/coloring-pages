@@ -38,7 +38,7 @@ const ImageBlock = ({ fileName, module, difficulty, source, categories, author }
       </ul>
       <div>Categories: {categories.join(', ')}</div>
       <div>Author: {author}</div>
-      {source !== '' && (<a target="blank" href={source}>Source: ${source}</a>)}
+      {source !== '' && (<a target="blank" href={source}>Source: {source}</a>)}
     </div>
   );
 };

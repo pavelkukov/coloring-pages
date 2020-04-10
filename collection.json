@@ -581,5 +581,70 @@
       "d"
     ],
     "author": "Lena London"
+  },
+  "bitten_apple.svg": {
+    "size": 10632,
+    "difficulty": {
+      "totalAreas": 6,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 6
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/cartoon-bitten-apple",
+    "categories": [
+      "csk",
+      "fruits",
+      "apple"
+    ],
+    "author": "Public domain"
+  },
+  "chibi_princess.svg": {
+    "size": 61898,
+    "difficulty": {
+      "totalAreas": 29,
+      "smallAreas": 4,
+      "mediumAreas": 1,
+      "difficultyNumber": 39
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/cute-chibi-princess",
+    "categories": [],
+    "author": "Lena London"
+  },
+  "grape.svg": {
+    "size": 86495,
+    "difficulty": {
+      "totalAreas": 63,
+      "smallAreas": 4,
+      "mediumAreas": 8,
+      "difficultyNumber": 83
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/grape-4",
+    "categories": [
+      "csk",
+      "fruits",
+      "grape"
+    ],
+    "author": "Public domain"
+  },
+  "p_is_for_princess.svg": {
+    "size": 87599,
+    "difficulty": {
+      "totalAreas": 47,
+      "smallAreas": 6,
+      "mediumAreas": 6,
+      "difficultyNumber": 68
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/letter-p-is-for-princess",
+    "categories": [
+      "csk",
+      "letters",
+      "p",
+      "princess"
+    ],
+    "author": "Lena London"
   }
 }
