@@ -512,7 +512,7 @@
     "author": "Public domain"
   },
   "a_is_for_airplane.svg": {
-    "size": 75140,
+    "size": 75678,
     "difficulty": {
       "totalAreas": 54,
       "smallAreas": 1,
@@ -530,12 +530,12 @@
     "author": "Lena London"
   },
   "b_is_for_bird.svg": {
-    "size": 42660,
+    "size": 42987,
     "difficulty": {
-      "totalAreas": 27,
+      "totalAreas": 28,
       "smallAreas": 0,
-      "mediumAreas": 6,
-      "difficultyNumber": 36
+      "mediumAreas": 7,
+      "difficultyNumber": 39
     },
     "date": "2020-04-10",
     "source": "http://www.supercoloring.com/coloring-pages/letter-b-is-for-bird",
