@@ -1,6 +1,6 @@
 {
   "name": "coloring-pages",
-  "version": "1.16.2",
+  "version": "1.16.3",
   "description": "Collection of coloring pages for kids in vector format (SVG)",
   "private": true,
   "scripts": {
