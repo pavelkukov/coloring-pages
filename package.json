@@ -4,7 +4,7 @@
   "description": "Collection of coloring pages for kids in vector format (SVG)",
   "private": true,
   "scripts": {
-    "build": "ts-node ./generateCollectionData.ts",
+    "build": "node -r ts-node/register --expose-gc --max-old-space-size=8192 --optimize-for-size ./generateCollectionData.ts",
     "build-prof": "node -r ts-node/register --prof --no-logfile-per-isolate ./generateCollectionData.ts",
     "profiler-report": "node --prof-process v8.log > build-profiler.txt",
     "makepngs": "convert-svg-to-png --no-color --height=180 ./images/*.svg",

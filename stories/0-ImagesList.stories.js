@@ -12,7 +12,7 @@ export default {
 
 const mainStory = storiesOf("Coloring Pages", module);
 
-const ImageBlock = ({ fileName, module, difficulty }) => {
+const ImageBlock = ({ fileName, module, difficulty, source, categories, author }) => {
   return (
     <div style={{maxWidth: 'calc(100% - 80px)'}}>
       <img
@@ -36,6 +36,9 @@ const ImageBlock = ({ fileName, module, difficulty }) => {
         <li>small areas: {difficulty.smallAreas}</li>
         <li>medium-small areas: {difficulty.mediumAreas}</li>
       </ul>
+      <div>Categories: {categories.join(', ')}</div>
+      <div>Author: {author}</div>
+      {source !== '' && (<a target="blank" href={source}>Source: ${source}</a>)}
     </div>
   );
 };

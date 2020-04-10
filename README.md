@@ -28,11 +28,12 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 
 > Listed alphabetically -  a-z
 
-* 18+
 * 4+
 * 6+
 * 8+
+* a
 * animals
+* b
 * beach
 * bear
 * bird
@@ -40,10 +41,12 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * boys
 * bunny
 * butterfly
+* c
 * camel
 * caricatures
 * christmas
 * csk
+* d
 * easter
 * egg
 * flowers
@@ -62,7 +65,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * surf
 * vegetables
 
-> totally 33 categories for 30 images
+> totally 36 categories for 34 images
 
 ## Generate `collection.json`
 

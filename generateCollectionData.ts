@@ -8,6 +8,7 @@ type CollectionItem = {
   date: string;
   source: string;
   categories: Array<string>;
+  author: string;
 };
 type Collection = {
   [key: string]: CollectionItem;
@@ -28,26 +29,35 @@ const targetFiles = process.argv.slice(2).map(filePath => {
 });
 
 async function fileDetails(file: string): Promise<CollectionItem> {
-  const { size } = fs.statSync(`${__dirname}/images/${file}`);
-  const content = fs.readFileSync(`${__dirname}/images/${file}`);
-  const $ = cheerio.load(content);
-  const dateTag = $("dc\\:date");
-  const sourceTag = $("dc\\:source");
-  const date = dateTag.length ? dateTag.text() : "2020-03-01";
-  const source = sourceTag.length ? sourceTag.text() : "";
-  const estimator = new DifficultyEstimator(`./images/${file}`);
-  const categories = [];
-  const keywords = $("rdf\\:Bag  rdf\\:li");
-  keywords.each(function() {
-    categories.push($(this).text());
-  });
-  return {
-    size,
-    difficulty: await estimator.estimate(),
-    date,
-    source,
-    categories
-  };
+  try {
+    const { size } = fs.statSync(`${__dirname}/images/${file}`);
+    const content = fs.readFileSync(`${__dirname}/images/${file}`);
+    const $ = cheerio.load(content);
+    const dateTag = $("dc\\:date");
+    const sourceTag = $("dc\\:source");
+    const authorTag = $("dc\\:creator cc\\:Agent dc\\:title");
+    const date = dateTag.length ? dateTag.text() : "2020-03-01";
+    const source = sourceTag.length ? sourceTag.text() : "";
+    const author = authorTag.length ? authorTag.text() : "Public domain";
+    const estimator = new DifficultyEstimator(`./images/${file}`);
+    const categories = [];
+    const keywords = $("rdf\\:Bag rdf\\:li");
+    keywords.each(function() {
+      categories.push($(this).text());
+    });
+    global.gc();
+    const difficulty = await estimator.estimate();
+    return {
+      size,
+      difficulty,
+      date,
+      source,
+      categories,
+      author
+    };
+  } catch (e) {
+    throw new Error(`Error while processing file: ${file}. ${e.toString()} \n Stack: ${e.stack}`);
+  }
 }
 
 function updateReadMe(collection: Collection): void {
@@ -56,7 +66,7 @@ function updateReadMe(collection: Collection): void {
   Object.keys(collection).forEach(fileName => {
     categories = categories.concat(collection[fileName].categories);
   });
-  categories = categories.filter((v, i, a) => a.indexOf(v) === i)
+  categories = categories.filter((v, i, a) => a.indexOf(v) === i);
   const catsStr = categories.sort().join("\n* ");
   readMe = readMe.replace(
     /> Listed alphabetically -  a-z[\s\S]{0,}(.*?)[\s\S]{0,}> totally/gim,
@@ -72,12 +82,12 @@ function updateReadMe(collection: Collection): void {
   fs.writeFileSync("./README.md", readMe);
 }
 
-function updateAcknowledgments(collection) {
+function updateAcknowledgments(collection: Collection): void {
   let acknowledgments = `## Acknowledgments \n\n`;
   Object.keys(collection).forEach(fileName => {
-    const { source } = collection[fileName];
+    const { source, author } = collection[fileName];
     if (source.length) {
-      acknowledgments += `* ${fileName} - ${source}\n`;
+      acknowledgments += `* ${fileName} - Author: ${author}, Source: ${source}\n`;
     }
   });
   fs.writeFileSync("./Acknowledgments.md", acknowledgments);
@@ -88,6 +98,9 @@ async function collectData() {
   fs.readdirSync("images").forEach(file => {
     if (targetFiles.length && !targetFiles.includes(file)) {
       return;
+    }
+    if (fs.lstatSync(`./images/${file}`).isDirectory()) {
+        return
     }
     const promise = fileDetails(file);
     promise.then(data => {

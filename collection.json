@@ -12,7 +12,8 @@
     "categories": [
       "shapes",
       "csk"
-    ]
+    ],
+    "author": "Public domain"
   },
   "little_pony.svg": {
     "size": 168624,
@@ -28,7 +29,8 @@
       "magic-animals",
       "girls",
       "csk"
-    ]
+    ],
+    "author": "Public domain"
   },
   "octo.svg": {
     "size": 343216,
@@ -43,7 +45,8 @@
     "categories": [
       "animals",
       "4+"
-    ]
+    ],
+    "author": "Public domain"
   },
   "owl.svg": {
     "size": 109861,
@@ -58,7 +61,8 @@
     "categories": [
       "animals",
       "csk"
-    ]
+    ],
+    "author": "Public domain"
   },
   "santa_and_rudolf.svg": {
     "size": 77853,
@@ -73,7 +77,8 @@
     "categories": [
       "christmas",
       "csk"
-    ]
+    ],
+    "author": "Public domain"
   },
   "square.svg": {
     "size": 1380,
@@ -88,7 +93,8 @@
     "categories": [
       "shapes",
       "csk"
-    ]
+    ],
+    "author": "Public domain"
   },
   "shark_jaws.svg": {
     "size": 11539,
@@ -103,10 +109,11 @@
     "categories": [
       "animals",
       "csk"
-    ]
+    ],
+    "author": "Public domain"
   },
   "fishing_fish.svg": {
-    "size": 115093,
+    "size": 115059,
     "difficulty": {
       "totalAreas": 96,
       "smallAreas": 49,
@@ -117,9 +124,9 @@
     "source": "https://publicdomainvectors.org/en/free-clipart/Fishing-fish/82488.html",
     "categories": [
       "caricatures",
-      "6+",
-      "18+"
-    ]
+      "6+"
+    ],
+    "author": "Public domain"
   },
   "donkey.svg": {
     "size": 23979,
@@ -135,7 +142,8 @@
       "animals",
       "caricatures",
       "4+"
-    ]
+    ],
+    "author": "Public domain"
   },
   "horse_caricature.svg": {
     "size": 39919,
@@ -151,7 +159,8 @@
       "animals",
       "caricatures",
       "csk"
-    ]
+    ],
+    "author": "Public domain"
   },
   "dragon.svg": {
     "size": 267185,
@@ -167,7 +176,8 @@
       "magic-animals",
       "boys",
       "8+"
-    ]
+    ],
+    "author": "Public domain"
   },
   "dove.svg": {
     "size": 150443,
@@ -184,7 +194,8 @@
       "csk",
       "sizing-cover",
       "landscape"
-    ]
+    ],
+    "author": "Public domain"
   },
   "bear_with_flower.svg": {
     "size": 49998,
@@ -200,7 +211,8 @@
       "animals",
       "bear",
       "csk"
-    ]
+    ],
+    "author": "Lena London"
   },
   "camel.svg": {
     "size": 108205,
@@ -218,7 +230,8 @@
       "camel",
       "landscape",
       "sizing-cover"
-    ]
+    ],
+    "author": "Olga Gaidoush"
   },
   "cute_butterfly.svg": {
     "size": 44594,
@@ -234,7 +247,8 @@
       "landscape",
       "csk",
       "insects"
-    ]
+    ],
+    "author": "Coloring books: Cute Butterflies"
   },
   "cute_butterfly_flies_over_pumpkin.svg": {
     "size": 66195,
@@ -250,7 +264,8 @@
       "insects",
       "butterfly",
       "csk"
-    ]
+    ],
+    "author": "Coloring books: Cute Butterflies"
   },
   "cute_cow.svg": {
     "size": 59032,
@@ -265,7 +280,8 @@
     "categories": [
       "animals",
       "csk"
-    ]
+    ],
+    "author": "Lena London"
   },
   "ladybug_on_leaf.svg": {
     "size": 39474,
@@ -282,7 +298,8 @@
       "csk",
       "insects",
       "ladybug"
-    ]
+    ],
+    "author": "Public domain"
   },
   "bunny_and_eggs.svg": {
     "size": 64936,
@@ -298,7 +315,8 @@
       "csk",
       "easter",
       "bunny"
-    ]
+    ],
+    "author": "Cute Easter"
   },
   "easter_basket.svg": {
     "size": 6552,
@@ -314,7 +332,8 @@
       "csk",
       "easter",
       "egg"
-    ]
+    ],
+    "author": "Public domain"
   },
   "easter_egg.svg": {
     "size": 18905,
@@ -330,7 +349,8 @@
       "csk",
       "easter",
       "egg"
-    ]
+    ],
+    "author": "Painter"
   },
   "easter_egg_with_stars.svg": {
     "size": 51983,
@@ -346,7 +366,8 @@
       "csk",
       "easter",
       "egg"
-    ]
+    ],
+    "author": "Painter"
   },
   "pumpkin.svg": {
     "size": 36665,
@@ -362,7 +383,8 @@
       "csk",
       "vegetables",
       "pumpkin"
-    ]
+    ],
+    "author": "Artsashina"
   },
   "two_easter_bunnies.svg": {
     "size": 32829,
@@ -379,7 +401,8 @@
       "easter",
       "bunny",
       "egg"
-    ]
+    ],
+    "author": "Cute Easter"
   },
   "e_is_for_egg.svg": {
     "size": 49051,
@@ -396,7 +419,8 @@
       "easter",
       "egg",
       "letters"
-    ]
+    ],
+    "author": "Lena London"
   },
   "spring_bird.svg": {
     "size": 95061,
@@ -413,7 +437,8 @@
       "spring",
       "bird",
       "sizing-cover"
-    ]
+    ],
+    "author": "Lena London"
   },
   "spring_flowers.svg": {
     "size": 108043,
@@ -429,7 +454,8 @@
       "csk",
       "spring",
       "flowers"
-    ]
+    ],
+    "author": "Flower Coloring Pages by Peaksel"
   },
   "spring_rain.svg": {
     "size": 98087,
@@ -446,7 +472,8 @@
       "spring",
       "rain",
       "sizing-cover"
-    ]
+    ],
+    "author": "Lena London"
   },
   "summer_beach.svg": {
     "size": 38656,
@@ -463,7 +490,8 @@
       "beach",
       "summer",
       "sizing-cover"
-    ]
+    ],
+    "author": "Public domain"
   },
   "boy_surfer.svg": {
     "size": 16161,
@@ -480,6 +508,78 @@
       "beach",
       "boy",
       "surf"
-    ]
+    ],
+    "author": "Public domain"
+  },
+  "a_is_for_airplane.svg": {
+    "size": 75140,
+    "difficulty": {
+      "totalAreas": 54,
+      "smallAreas": 1,
+      "mediumAreas": 7,
+      "difficultyNumber": 67
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/letter-a-is-for-airplane-0",
+    "categories": [
+      "csk",
+      "sizing-cover",
+      "letters",
+      "a"
+    ],
+    "author": "Lena London"
+  },
+  "b_is_for_bird.svg": {
+    "size": 42660,
+    "difficulty": {
+      "totalAreas": 27,
+      "smallAreas": 0,
+      "mediumAreas": 6,
+      "difficultyNumber": 36
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/letter-b-is-for-bird",
+    "categories": [
+      "csk",
+      "sizing-cover",
+      "letters",
+      "b"
+    ],
+    "author": "Lena London"
+  },
+  "c_is_for_cake.svg": {
+    "size": 56838,
+    "difficulty": {
+      "totalAreas": 15,
+      "smallAreas": 0,
+      "mediumAreas": 2,
+      "difficultyNumber": 18
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/letter-c-is-for-cake",
+    "categories": [
+      "csk",
+      "sizing-cover",
+      "letters",
+      "c"
+    ],
+    "author": "Lena London"
+  },
+  "d_is_for_donut.svg": {
+    "size": 44983,
+    "difficulty": {
+      "totalAreas": 26,
+      "smallAreas": 7,
+      "mediumAreas": 4,
+      "difficultyNumber": 46
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/letter-d-is-for-donut",
+    "categories": [
+      "csk",
+      "letters",
+      "d"
+    ],
+    "author": "Lena London"
   }
 }
