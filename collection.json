@@ -681,5 +681,21 @@
       "sea"
     ],
     "author": "Lena London"
+  },
+  "blank.svg": {
+    "size": 1447,
+    "difficulty": {
+      "totalAreas": 1,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 1
+    },
+    "date": "2020-04-10",
+    "source": "",
+    "categories": [
+      "csk",
+      "blank"
+    ],
+    "author": "public domain"
   }
 }
