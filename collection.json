@@ -646,5 +646,22 @@
       "princess"
     ],
     "author": "Lena London"
+  },
+  "knight_on_horse.svg": {
+    "size": 59986,
+    "difficulty": {
+      "totalAreas": 42,
+      "smallAreas": 1,
+      "mediumAreas": 10,
+      "difficultyNumber": 59
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/cartoon-knight-on-horse",
+    "categories": [
+      "csk",
+      "knight",
+      "horse"
+    ],
+    "author": "Nata Silina"
   }
 }

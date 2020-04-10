@@ -36,3 +36,4 @@
 * chibi_princess.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/cute-chibi-princess
 * grape.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/grape-4
 * p_is_for_princess.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/letter-p-is-for-princess
+* knight_on_horse.svg - Author: Nata Silina, Source: http://www.supercoloring.com/coloring-pages/cartoon-knight-on-horse

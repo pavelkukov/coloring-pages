@@ -54,7 +54,9 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * fruits
 * girls
 * grape
+* horse
 * insects
+* knight
 * ladybug
 * landscape
 * letters
@@ -70,7 +72,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * surf
 * vegetables
 
-> totally 41 categories for 38 images
+> totally 43 categories for 39 images
 
 ## Generate `collection.json`
 
