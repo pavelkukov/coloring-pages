@@ -663,5 +663,23 @@
       "horse"
     ],
     "author": "Nata Silina"
+  },
+  "jellyfish.svg": {
+    "size": 78145,
+    "difficulty": {
+      "totalAreas": 50,
+      "smallAreas": 12,
+      "mediumAreas": 17,
+      "difficultyNumber": 100
+    },
+    "date": "2020-04-10",
+    "source": "http://www.supercoloring.com/coloring-pages/cartoon-jellyfish-0",
+    "categories": [
+      "csk",
+      "animals",
+      "jellyfish",
+      "sea"
+    ],
+    "author": "Lena London"
   }
 }
