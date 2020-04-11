@@ -41,3 +41,7 @@
 * cartoon_frog.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/cartoon-frog-3
 * heart.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/simple-heart-1
 * alpaca.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/cartoon-alpaca-0
+* creazilla_dragon.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/creazilla-dragon
+* gingerbread_man.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/simple-gingerbread-man
+* kawaii_unicorn_cloud.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/kawaii-unicorn-cloud
+* octopus.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/o-is-for-octopus

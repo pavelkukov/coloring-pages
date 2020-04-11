@@ -48,8 +48,10 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * camel
 * caricatures
 * christmas
+* cloud
 * csk
 * d
+* dragon
 * easter
 * egg
 * flowers
@@ -66,6 +68,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * landscape
 * letters
 * magic-animals
+* octopus
 * p
 * princess
 * pumpkin
@@ -76,9 +79,11 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * spring
 * summer
 * surf
+* underwater
+* unicorn
 * vegetables
 
-> totally 49 categories for 44 images
+> totally 54 categories for 48 images
 
 ## Generate `collection.json`
 

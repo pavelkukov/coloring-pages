@@ -748,5 +748,73 @@
       "alpaca"
     ],
     "author": "Public domain"
+  },
+  "creazilla_dragon.svg": {
+    "size": 22424,
+    "difficulty": {
+      "totalAreas": 30,
+      "smallAreas": 0,
+      "mediumAreas": 4,
+      "difficultyNumber": 36
+    },
+    "date": "2020-04-11",
+    "source": "http://www.supercoloring.com/coloring-pages/creazilla-dragon",
+    "categories": [
+      "csk",
+      "dragon"
+    ],
+    "author": "Public domain"
+  },
+  "gingerbread_man.svg": {
+    "size": 18318,
+    "difficulty": {
+      "totalAreas": 12,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 12
+    },
+    "date": "2020-04-11",
+    "source": "http://www.supercoloring.com/coloring-pages/simple-gingerbread-man",
+    "categories": [
+      "csk",
+      "christmas"
+    ],
+    "author": "Public domain"
+  },
+  "kawaii_unicorn_cloud.svg": {
+    "size": 17064,
+    "difficulty": {
+      "totalAreas": 25,
+      "smallAreas": 3,
+      "mediumAreas": 1,
+      "difficultyNumber": 33
+    },
+    "date": "2020-04-11",
+    "source": "http://www.supercoloring.com/coloring-pages/kawaii-unicorn-cloud",
+    "categories": [
+      "csk",
+      "cloud",
+      "unicorn"
+    ],
+    "author": "Public domain"
+  },
+  "octopus.svg": {
+    "size": 39811,
+    "difficulty": {
+      "totalAreas": 61,
+      "smallAreas": 22,
+      "mediumAreas": 13,
+      "difficultyNumber": 125
+    },
+    "date": "2020-04-11",
+    "source": "http://www.supercoloring.com/coloring-pages/o-is-for-octopus",
+    "categories": [
+      "csk",
+      "animals",
+      "octopus",
+      "sea",
+      "underwater"
+    ],
+    "author": "Lena London"
   }
 }
