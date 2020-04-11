@@ -731,5 +731,22 @@
       "heart"
     ],
     "author": "Public domain"
+  },
+  "alpaca.svg": {
+    "size": 19971,
+    "difficulty": {
+      "totalAreas": 15,
+      "smallAreas": 2,
+      "mediumAreas": 0,
+      "difficultyNumber": 19
+    },
+    "date": "2020-04-11",
+    "source": "http://www.supercoloring.com/coloring-pages/cartoon-alpaca-0",
+    "categories": [
+      "csk",
+      "animals",
+      "alpaca"
+    ],
+    "author": "Public domain"
   }
 }
