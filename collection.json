@@ -697,5 +697,22 @@
       "blank"
     ],
     "author": "public domain"
+  },
+  "cartoon_frog.svg": {
+    "size": 18424,
+    "difficulty": {
+      "totalAreas": 5,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 5
+    },
+    "date": "2020-04-11",
+    "source": "http://www.supercoloring.com/coloring-pages/cartoon-frog-3",
+    "categories": [
+      "csk",
+      "animals",
+      "frog"
+    ],
+    "author": "Public domain"
   }
 }
