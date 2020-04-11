@@ -39,3 +39,4 @@
 * knight_on_horse.svg - Author: Nata Silina, Source: http://www.supercoloring.com/coloring-pages/cartoon-knight-on-horse
 * jellyfish.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/cartoon-jellyfish-0
 * cartoon_frog.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/cartoon-frog-3
+* heart.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/simple-heart-1

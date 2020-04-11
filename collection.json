@@ -714,5 +714,22 @@
       "frog"
     ],
     "author": "Public domain"
+  },
+  "heart.svg": {
+    "size": 5668,
+    "difficulty": {
+      "totalAreas": 2,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 2
+    },
+    "date": "2020-04-11",
+    "source": "http://www.supercoloring.com/coloring-pages/simple-heart-1",
+    "categories": [
+      "csk",
+      "shapes",
+      "heart"
+    ],
+    "author": "Public domain"
   }
 }
