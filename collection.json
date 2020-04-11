@@ -683,7 +683,7 @@
     "author": "Lena London"
   },
   "blank.svg": {
-    "size": 1490,
+    "size": 1537,
     "difficulty": {
       "totalAreas": 1,
       "smallAreas": 0,
@@ -695,7 +695,8 @@
     "categories": [
       "csk",
       "blank",
-      "sizing-cover"
+      "sizing-cover",
+      "brush-size-0.015"
     ],
     "author": "public domain"
   },
