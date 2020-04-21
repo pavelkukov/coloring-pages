@@ -44,7 +44,7 @@
 * creazilla_dragon.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/creazilla-dragon
 * gingerbread_man.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/simple-gingerbread-man
 * kawaii_unicorn_cloud.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/kawaii-unicorn-cloud
-* octopus.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/o-is-for-octopus
+* octopus.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/cute-cartoon-octopus
 * cute_horse.svg - Author: Cute Horses, Source: http://www.supercoloring.com/coloring-pages/cute-horse-and-butterfly
 * hummingbird.svg - Author: SuperColoring, Source: http://www.supercoloring.com/coloring-pages/hummingbird-6
 * juice_and_cake.svg - Author: SuperColoring, Source: http://www.supercoloring.com/coloring-pages/cocktail-and-cake

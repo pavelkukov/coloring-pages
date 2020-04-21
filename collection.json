@@ -530,12 +530,12 @@
     "author": "Lena London"
   },
   "b_is_for_bird.svg": {
-    "size": 25973,
+    "size": 27915,
     "difficulty": {
-      "totalAreas": 30,
+      "totalAreas": 29,
       "smallAreas": 2,
-      "mediumAreas": 8,
-      "difficultyNumber": 46
+      "mediumAreas": 7,
+      "difficultyNumber": 44
     },
     "date": "2020-04-10",
     "source": "http://www.supercoloring.com/coloring-pages/bird-perching-on-a-tree-branch",
@@ -801,15 +801,15 @@
     "author": "Public domain"
   },
   "octopus.svg": {
-    "size": 39811,
+    "size": 34998,
     "difficulty": {
-      "totalAreas": 61,
-      "smallAreas": 22,
-      "mediumAreas": 13,
-      "difficultyNumber": 125
+      "totalAreas": 64,
+      "smallAreas": 24,
+      "mediumAreas": 12,
+      "difficultyNumber": 130
     },
     "date": "2020-04-11",
-    "source": "http://www.supercoloring.com/coloring-pages/o-is-for-octopus",
+    "source": "http://www.supercoloring.com/coloring-pages/cute-cartoon-octopus",
     "categories": [
       "csk",
       "animals",
@@ -904,7 +904,7 @@
     "author": "SuperColoring"
   },
   "trees.svg": {
-    "size": 48917,
+    "size": 49770,
     "difficulty": {
       "totalAreas": 11,
       "smallAreas": 0,
@@ -916,7 +916,8 @@
     "categories": [
       "csk",
       "trees",
-      "landscape"
+      "landscape",
+      "sizing-cover"
     ],
     "author": "SuperColoring"
   }
