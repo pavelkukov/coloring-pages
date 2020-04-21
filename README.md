@@ -90,7 +90,8 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 
 After a new image is added, collection data should be updated. This happens through a command `npm run build`. It takes some time, needs patience.
 
-### 🍧 [Color Splash - Kids](https://play.google.com/store/apps/details?id=com.codeiterator.colorsplashkids) is using this repository.
+## Consumers
+1. 🍧 [Color Splash - Kids](https://play.google.com/store/apps/details?id=com.codeiterator.colorsplashkids)
 
 ## 👋 Author
 
