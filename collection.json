@@ -405,15 +405,15 @@
     "author": "Cute Easter"
   },
   "e_is_for_egg.svg": {
-    "size": 49051,
+    "size": 35819,
     "difficulty": {
-      "totalAreas": 25,
-      "smallAreas": 2,
-      "mediumAreas": 4,
-      "difficultyNumber": 35
+      "totalAreas": 28,
+      "smallAreas": 6,
+      "mediumAreas": 7,
+      "difficultyNumber": 51
     },
     "date": "2020-04-05",
-    "source": "http://www.supercoloring.com/coloring-pages/letter-e-is-for-egg",
+    "source": "http://www.supercoloring.com/coloring-pages/cartoon-egg-character",
     "categories": [
       "csk",
       "easter",
@@ -512,15 +512,15 @@
     "author": "Public domain"
   },
   "a_is_for_airplane.svg": {
-    "size": 75678,
+    "size": 55173,
     "difficulty": {
       "totalAreas": 54,
-      "smallAreas": 1,
-      "mediumAreas": 7,
-      "difficultyNumber": 67
+      "smallAreas": 5,
+      "mediumAreas": 6,
+      "difficultyNumber": 73
     },
     "date": "2020-04-10",
-    "source": "http://www.supercoloring.com/coloring-pages/letter-a-is-for-airplane-0",
+    "source": "http://www.supercoloring.com/coloring-pages/cartoon-airplane",
     "categories": [
       "csk",
       "sizing-cover",
@@ -530,15 +530,15 @@
     "author": "Lena London"
   },
   "b_is_for_bird.svg": {
-    "size": 42987,
+    "size": 25973,
     "difficulty": {
-      "totalAreas": 28,
-      "smallAreas": 0,
-      "mediumAreas": 7,
-      "difficultyNumber": 39
+      "totalAreas": 30,
+      "smallAreas": 2,
+      "mediumAreas": 8,
+      "difficultyNumber": 46
     },
     "date": "2020-04-10",
-    "source": "http://www.supercoloring.com/coloring-pages/letter-b-is-for-bird",
+    "source": "http://www.supercoloring.com/coloring-pages/bird-perching-on-a-tree-branch",
     "categories": [
       "csk",
       "sizing-cover",
@@ -548,15 +548,15 @@
     "author": "Lena London"
   },
   "c_is_for_cake.svg": {
-    "size": 56838,
+    "size": 40920,
     "difficulty": {
-      "totalAreas": 15,
-      "smallAreas": 0,
+      "totalAreas": 16,
+      "smallAreas": 2,
       "mediumAreas": 2,
-      "difficultyNumber": 18
+      "difficultyNumber": 23
     },
     "date": "2020-04-10",
-    "source": "http://www.supercoloring.com/coloring-pages/letter-c-is-for-cake",
+    "source": "http://www.supercoloring.com/coloring-pages/piece-of-cake",
     "categories": [
       "csk",
       "sizing-cover",
@@ -566,15 +566,15 @@
     "author": "Lena London"
   },
   "d_is_for_donut.svg": {
-    "size": 44983,
+    "size": 30364,
     "difficulty": {
-      "totalAreas": 26,
-      "smallAreas": 7,
+      "totalAreas": 27,
+      "smallAreas": 9,
       "mediumAreas": 4,
-      "difficultyNumber": 46
+      "difficultyNumber": 51
     },
     "date": "2020-04-10",
-    "source": "http://www.supercoloring.com/coloring-pages/letter-d-is-for-donut",
+    "source": "http://www.supercoloring.com/coloring-pages/doughnut",
     "categories": [
       "csk",
       "letters",
@@ -630,15 +630,15 @@
     "author": "Public domain"
   },
   "p_is_for_princess.svg": {
-    "size": 106820,
+    "size": 68641,
     "difficulty": {
       "totalAreas": 45,
-      "smallAreas": 5,
-      "mediumAreas": 6,
-      "difficultyNumber": 64
+      "smallAreas": 6,
+      "mediumAreas": 5,
+      "difficultyNumber": 65
     },
     "date": "2020-04-10",
-    "source": "http://www.supercoloring.com/coloring-pages/letter-p-is-for-princess",
+    "source": "http://www.supercoloring.com/coloring-pages/gorgeous-princess-0",
     "categories": [
       "csk",
       "letters",
@@ -818,5 +818,106 @@
       "underwater"
     ],
     "author": "Lena London"
+  },
+  "cute_horse.svg": {
+    "size": 36987,
+    "difficulty": {
+      "totalAreas": 50,
+      "smallAreas": 5,
+      "mediumAreas": 10,
+      "difficultyNumber": 75
+    },
+    "date": "2020-04-21",
+    "source": "http://www.supercoloring.com/coloring-pages/cute-horse-and-butterfly",
+    "categories": [
+      "csk",
+      "horse",
+      "animals"
+    ],
+    "author": "Cute Horses"
+  },
+  "hummingbird.svg": {
+    "size": 8835,
+    "difficulty": {
+      "totalAreas": 10,
+      "smallAreas": 1,
+      "mediumAreas": 0,
+      "difficultyNumber": 12
+    },
+    "date": "2020-04-21",
+    "source": "http://www.supercoloring.com/coloring-pages/hummingbird-6",
+    "categories": [
+      "csk",
+      "animals",
+      "birds"
+    ],
+    "author": "SuperColoring"
+  },
+  "juice_and_cake.svg": {
+    "size": 32692,
+    "difficulty": {
+      "totalAreas": 37,
+      "smallAreas": 10,
+      "mediumAreas": 3,
+      "difficultyNumber": 62
+    },
+    "date": "2020-04-21",
+    "source": "http://www.supercoloring.com/coloring-pages/cocktail-and-cake",
+    "categories": [
+      "csk",
+      "cake",
+      "landscape"
+    ],
+    "author": "SuperColoring"
+  },
+  "sleeping_cat.svg": {
+    "size": 11278,
+    "difficulty": {
+      "totalAreas": 3,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 3
+    },
+    "date": "2020-04-21",
+    "source": "http://www.supercoloring.com/coloring-pages/sleeping-cat",
+    "categories": [
+      "csk",
+      "cat",
+      "animals"
+    ],
+    "author": "Just a little doodle of a sleeping cat by Chelsea Dover"
+  },
+  "snowman.svg": {
+    "size": 18852,
+    "difficulty": {
+      "totalAreas": 21,
+      "smallAreas": 7,
+      "mediumAreas": 3,
+      "difficultyNumber": 40
+    },
+    "date": "2020-04-21",
+    "source": "http://www.supercoloring.com/coloring-pages/snowman",
+    "categories": [
+      "csk",
+      "snow"
+    ],
+    "author": "SuperColoring"
+  },
+  "trees.svg": {
+    "size": 48917,
+    "difficulty": {
+      "totalAreas": 11,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 11
+    },
+    "date": "2020-04-21",
+    "source": "http://www.supercoloring.com/coloring-pages/trees",
+    "categories": [
+      "csk",
+      "trees",
+      "landscape"
+    ],
+    "author": "SuperColoring"
   }
 }

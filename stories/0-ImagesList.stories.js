@@ -39,6 +39,8 @@ const ImageBlock = ({ fileName, module, difficulty, source, categories, author }
       <div>Categories: {categories.join(', ')}</div>
       <div>Author: {author}</div>
       {source !== '' && (<a target="blank" href={source}>Source: {source}</a>)}
+      <div>Changes: Yes, changes were made to the original</div>
+      <div>License: <a href="http://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a></div>
     </div>
   );
 };
