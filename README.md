@@ -3,8 +3,6 @@
 Coloring pages for kids in vector format (SVG). Each image is drawn with pure black lines on a transparent background.
 A list of all files from the "images" folder plus difficulty estimate per drawing is generated as "./collection.json". The difficulty calculation is based on the number of empty areas and their sizes.
 
-### 🍧 [Color Splash - Kids](https://play.google.com/store/apps/details?id=com.codeiterator.colorsplashkids) is using this repository.
-
 ## Preview pictures
 
 All pictures are listed in a storybook.
@@ -91,6 +89,8 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 ## Generate `collection.json`
 
 After a new image is added, collection data should be updated. This happens through a command `npm run build`. It takes some time, needs patience.
+
+### 🍧 [Color Splash - Kids](https://play.google.com/store/apps/details?id=com.codeiterator.colorsplashkids) is using this repository.
 
 ## 👋 Author
 
