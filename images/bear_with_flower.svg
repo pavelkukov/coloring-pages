@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
-   id="svg2634">
+   id="svg2634"
+   sodipodi:docname="bear_with_flower.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1029"
+     inkscape:window-height="520"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="0.2102413"
+     inkscape:cx="396.85039"
+     inkscape:cy="561.25984"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2634" />
   <title
      id="title3209">Bear with flower</title>
   <defs
@@ -35,6 +59,7 @@
             <rdf:li>animals</rdf:li>
             <rdf:li>bear</rdf:li>
             <rdf:li>csk</rdf:li>
+            <rdf:li>acb</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>

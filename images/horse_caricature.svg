@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg4"
    version="1.1"
    width="605.92957"
    viewBox="0 0 605.92956 899.38422"
-   height="899.38422">
+   height="899.38422"
+   sodipodi:docname="horse_caricature.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1029"
+     inkscape:window-height="520"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="0.26240176"
+     inkscape:cx="302.96478"
+     inkscape:cy="449.69211"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
   <title
      id="title817">Horse Caricature</title>
   <metadata
@@ -28,6 +52,7 @@
             <rdf:li>animals</rdf:li>
             <rdf:li>caricatures</rdf:li>
             <rdf:li>csk</rdf:li>
+            <rdf:li>acb</rdf:li>
           </rdf:Bag>
         </dc:subject>
       </cc:Work>

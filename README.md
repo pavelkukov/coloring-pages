@@ -29,9 +29,9 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 > Listed alphabetically -  a-z
 
 * 4+
-* 6+
 * 8+
 * a
+* acb
 * alpaca
 * animals
 * apple

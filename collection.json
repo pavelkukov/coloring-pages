@@ -1,6 +1,6 @@
 {
   "five_pointed_star.svg": {
-    "size": 3639,
+    "size": 4489,
     "difficulty": {
       "totalAreas": 3,
       "smallAreas": 0,
@@ -11,7 +11,8 @@
     "source": "",
     "categories": [
       "shapes",
-      "csk"
+      "csk",
+      "acb"
     ],
     "author": "Public domain"
   },
@@ -49,7 +50,7 @@
     "author": "Public domain"
   },
   "owl.svg": {
-    "size": 109861,
+    "size": 110702,
     "difficulty": {
       "totalAreas": 62,
       "smallAreas": 0,
@@ -60,7 +61,8 @@
     "source": "https://www.publicdomainpictures.net/en/view-image.php?image=58836&picture=owl-coloring-page-clipart",
     "categories": [
       "animals",
-      "csk"
+      "csk",
+      "acb"
     ],
     "author": "Public domain"
   },
@@ -81,7 +83,7 @@
     "author": "Public domain"
   },
   "square.svg": {
-    "size": 1380,
+    "size": 2212,
     "difficulty": {
       "totalAreas": 2,
       "smallAreas": 0,
@@ -92,12 +94,13 @@
     "source": "",
     "categories": [
       "shapes",
-      "csk"
+      "csk",
+      "acb"
     ],
     "author": "Public domain"
   },
   "shark_jaws.svg": {
-    "size": 11539,
+    "size": 12331,
     "difficulty": {
       "totalAreas": 27,
       "smallAreas": 4,
@@ -108,12 +111,13 @@
     "source": "https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html",
     "categories": [
       "animals",
-      "csk"
+      "csk",
+      "acb"
     ],
     "author": "Public domain"
   },
   "fishing_fish.svg": {
-    "size": 115059,
+    "size": 115785,
     "difficulty": {
       "totalAreas": 96,
       "smallAreas": 49,
@@ -124,7 +128,7 @@
     "source": "https://publicdomainvectors.org/en/free-clipart/Fishing-fish/82488.html",
     "categories": [
       "caricatures",
-      "6+"
+      "acb"
     ],
     "author": "Public domain"
   },
@@ -146,7 +150,7 @@
     "author": "Public domain"
   },
   "horse_caricature.svg": {
-    "size": 39919,
+    "size": 40768,
     "difficulty": {
       "totalAreas": 41,
       "smallAreas": 10,
@@ -158,7 +162,8 @@
     "categories": [
       "animals",
       "caricatures",
-      "csk"
+      "csk",
+      "acb"
     ],
     "author": "Public domain"
   },
@@ -180,7 +185,7 @@
     "author": "Public domain"
   },
   "dove.svg": {
-    "size": 150443,
+    "size": 151279,
     "difficulty": {
       "totalAreas": 35,
       "smallAreas": 1,
@@ -192,13 +197,14 @@
     "categories": [
       "animals",
       "csk",
+      "acb",
       "sizing-cover",
       "landscape"
     ],
     "author": "Public domain"
   },
   "bear_with_flower.svg": {
-    "size": 49998,
+    "size": 50849,
     "difficulty": {
       "totalAreas": 17,
       "smallAreas": 2,
@@ -210,12 +216,13 @@
     "categories": [
       "animals",
       "bear",
-      "csk"
+      "csk",
+      "acb"
     ],
     "author": "Lena London"
   },
   "camel.svg": {
-    "size": 108205,
+    "size": 109045,
     "difficulty": {
       "totalAreas": 35,
       "smallAreas": 0,
@@ -226,6 +233,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/camel-0",
     "categories": [
       "csk",
+      "acb",
       "animals",
       "camel",
       "landscape",
@@ -370,7 +378,7 @@
     "author": "Painter"
   },
   "pumpkin.svg": {
-    "size": 36665,
+    "size": 37506,
     "difficulty": {
       "totalAreas": 9,
       "smallAreas": 0,
@@ -381,6 +389,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/pumpkin-with-leaves",
     "categories": [
       "csk",
+      "acb",
       "vegetables",
       "pumpkin"
     ],
@@ -423,7 +432,7 @@
     "author": "Lena London"
   },
   "spring_bird.svg": {
-    "size": 95061,
+    "size": 95911,
     "difficulty": {
       "totalAreas": 32,
       "smallAreas": 11,
@@ -434,6 +443,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/spring-bird",
     "categories": [
       "csk",
+      "acb",
       "spring",
       "bird",
       "sizing-cover"
@@ -441,7 +451,7 @@
     "author": "Lena London"
   },
   "spring_flowers.svg": {
-    "size": 108043,
+    "size": 108897,
     "difficulty": {
       "totalAreas": 89,
       "smallAreas": 0,
@@ -452,13 +462,14 @@
     "source": "http://www.supercoloring.com/coloring-pages/spring-flowers-0",
     "categories": [
       "csk",
+      "acb",
       "spring",
       "flowers"
     ],
     "author": "Flower Coloring Pages by Peaksel"
   },
   "spring_rain.svg": {
-    "size": 98087,
+    "size": 98938,
     "difficulty": {
       "totalAreas": 81,
       "smallAreas": 7,
@@ -469,6 +480,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/spring-rain",
     "categories": [
       "csk",
+      "acb",
       "spring",
       "rain",
       "sizing-cover"
@@ -476,7 +488,7 @@
     "author": "Lena London"
   },
   "summer_beach.svg": {
-    "size": 38656,
+    "size": 39508,
     "difficulty": {
       "totalAreas": 55,
       "smallAreas": 10,
@@ -487,6 +499,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/summer-beach-scene",
     "categories": [
       "csk",
+      "acb",
       "beach",
       "summer",
       "sizing-cover"
@@ -548,7 +561,7 @@
     "author": "Lena London"
   },
   "c_is_for_cake.svg": {
-    "size": 40920,
+    "size": 41769,
     "difficulty": {
       "totalAreas": 16,
       "smallAreas": 2,
@@ -559,6 +572,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/piece-of-cake",
     "categories": [
       "csk",
+      "acb",
       "sizing-cover",
       "letters",
       "c"
@@ -566,24 +580,25 @@
     "author": "Lena London"
   },
   "d_is_for_donut.svg": {
-    "size": 30364,
+    "size": 31214,
     "difficulty": {
-      "totalAreas": 27,
+      "totalAreas": 28,
       "smallAreas": 9,
-      "mediumAreas": 4,
-      "difficultyNumber": 51
+      "mediumAreas": 5,
+      "difficultyNumber": 54
     },
     "date": "2020-04-10",
     "source": "http://www.supercoloring.com/coloring-pages/doughnut",
     "categories": [
       "csk",
+      "acb",
       "letters",
       "d"
     ],
     "author": "Lena London"
   },
   "bitten_apple.svg": {
-    "size": 10632,
+    "size": 11479,
     "difficulty": {
       "totalAreas": 6,
       "smallAreas": 0,
@@ -594,6 +609,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/cartoon-bitten-apple",
     "categories": [
       "csk",
+      "acb",
       "fruits",
       "apple"
     ],
@@ -613,7 +629,7 @@
     "author": "Lena London"
   },
   "grape.svg": {
-    "size": 86495,
+    "size": 87335,
     "difficulty": {
       "totalAreas": 63,
       "smallAreas": 4,
@@ -624,6 +640,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/grape-4",
     "categories": [
       "csk",
+      "acb",
       "fruits",
       "grape"
     ],
@@ -648,7 +665,7 @@
     "author": "Lena London"
   },
   "knight_on_horse.svg": {
-    "size": 59986,
+    "size": 60833,
     "difficulty": {
       "totalAreas": 42,
       "smallAreas": 1,
@@ -659,6 +676,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/cartoon-knight-on-horse",
     "categories": [
       "csk",
+      "acb",
       "knight",
       "horse"
     ],
@@ -683,7 +701,7 @@
     "author": "Lena London"
   },
   "blank.svg": {
-    "size": 1537,
+    "size": 2377,
     "difficulty": {
       "totalAreas": 1,
       "smallAreas": 0,
@@ -694,6 +712,7 @@
     "source": "",
     "categories": [
       "csk",
+      "acb",
       "blank",
       "sizing-cover",
       "brush-size-0.015"
@@ -701,7 +720,7 @@
     "author": "public domain"
   },
   "cartoon_frog.svg": {
-    "size": 18424,
+    "size": 19271,
     "difficulty": {
       "totalAreas": 5,
       "smallAreas": 0,
@@ -712,13 +731,14 @@
     "source": "http://www.supercoloring.com/coloring-pages/cartoon-frog-3",
     "categories": [
       "csk",
+      "acb",
       "animals",
       "frog"
     ],
     "author": "Public domain"
   },
   "heart.svg": {
-    "size": 5668,
+    "size": 6508,
     "difficulty": {
       "totalAreas": 2,
       "smallAreas": 0,
@@ -729,13 +749,14 @@
     "source": "http://www.supercoloring.com/coloring-pages/simple-heart-1",
     "categories": [
       "csk",
+      "acb",
       "shapes",
       "heart"
     ],
     "author": "Public domain"
   },
   "alpaca.svg": {
-    "size": 19971,
+    "size": 20812,
     "difficulty": {
       "totalAreas": 15,
       "smallAreas": 2,
@@ -747,7 +768,8 @@
     "categories": [
       "csk",
       "animals",
-      "alpaca"
+      "alpaca",
+      "acb"
     ],
     "author": "Public domain"
   },
@@ -768,7 +790,7 @@
     "author": "Public domain"
   },
   "gingerbread_man.svg": {
-    "size": 18318,
+    "size": 19165,
     "difficulty": {
       "totalAreas": 12,
       "smallAreas": 0,
@@ -779,6 +801,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/simple-gingerbread-man",
     "categories": [
       "csk",
+      "acb",
       "christmas"
     ],
     "author": "Public domain"
@@ -820,24 +843,25 @@
     "author": "Lena London"
   },
   "cute_horse.svg": {
-    "size": 36987,
+    "size": 37410,
     "difficulty": {
       "totalAreas": 50,
-      "smallAreas": 5,
-      "mediumAreas": 10,
-      "difficultyNumber": 75
+      "smallAreas": 6,
+      "mediumAreas": 9,
+      "difficultyNumber": 76
     },
     "date": "2020-04-21",
     "source": "http://www.supercoloring.com/coloring-pages/cute-horse-and-butterfly",
     "categories": [
       "csk",
       "horse",
-      "animals"
+      "animals",
+      "sizing-cover"
     ],
     "author": "Cute Horses"
   },
   "hummingbird.svg": {
-    "size": 8835,
+    "size": 9678,
     "difficulty": {
       "totalAreas": 10,
       "smallAreas": 1,
@@ -848,13 +872,14 @@
     "source": "http://www.supercoloring.com/coloring-pages/hummingbird-6",
     "categories": [
       "csk",
+      "acb",
       "animals",
       "birds"
     ],
     "author": "SuperColoring"
   },
   "juice_and_cake.svg": {
-    "size": 32692,
+    "size": 32726,
     "difficulty": {
       "totalAreas": 37,
       "smallAreas": 10,
@@ -865,13 +890,14 @@
     "source": "http://www.supercoloring.com/coloring-pages/cocktail-and-cake",
     "categories": [
       "csk",
+      "acb",
       "cake",
       "landscape"
     ],
     "author": "SuperColoring"
   },
   "sleeping_cat.svg": {
-    "size": 11278,
+    "size": 12130,
     "difficulty": {
       "totalAreas": 3,
       "smallAreas": 0,
@@ -882,13 +908,14 @@
     "source": "http://www.supercoloring.com/coloring-pages/sleeping-cat",
     "categories": [
       "csk",
+      "acb",
       "cat",
       "animals"
     ],
     "author": "Just a little doodle of a sleeping cat by Chelsea Dover"
   },
   "snowman.svg": {
-    "size": 18852,
+    "size": 23422,
     "difficulty": {
       "totalAreas": 21,
       "smallAreas": 7,
@@ -899,12 +926,13 @@
     "source": "http://www.supercoloring.com/coloring-pages/snowman",
     "categories": [
       "csk",
+      "acb",
       "snow"
     ],
     "author": "SuperColoring"
   },
   "trees.svg": {
-    "size": 49770,
+    "size": 49805,
     "difficulty": {
       "totalAreas": 11,
       "smallAreas": 0,
@@ -915,6 +943,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/trees",
     "categories": [
       "csk",
+      "acb",
       "trees",
       "landscape",
       "sizing-cover"

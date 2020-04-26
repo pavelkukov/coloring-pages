@@ -5,20 +5,40 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg1126"
    xml:space="preserve"
    width="845.84662"
    height="724.37909"
-   viewBox="0 0 845.84662 724.37909"><title
+   viewBox="0 0 845.84662 724.37909"
+   sodipodi:docname="shark_jaws.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2004"
+     id="namedview9"
+     showgrid="false"
+     inkscape:zoom="0.32579626"
+     inkscape:cx="422.92331"
+     inkscape:cy="362.18954"
+     inkscape:window-x="-16"
+     inkscape:window-y="-16"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1126" /><title
      id="title867">Shark Jaws</title><metadata
      id="metadata1132"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>Shark Jaws</dc:title><dc:source>https://publicdomainvectors.org/en/free-clipart/Shark-jaws/85060.html</dc:source><dc:date>2020-03-14</dc:date><dc:subject>
-         <rdf:Bag>
-             <rdf:li>animals</rdf:li>
-             <rdf:li>csk</rdf:li>
-         </rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><defs
+         <rdf:Bag><rdf:li>animals</rdf:li><rdf:li>csk</rdf:li><rdf:li>acb</rdf:li></rdf:Bag></dc:subject></cc:Work></rdf:RDF></metadata><defs
      id="defs1130"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath1142"><path
