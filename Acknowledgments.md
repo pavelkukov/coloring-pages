@@ -51,3 +51,6 @@
 * sleeping_cat.svg - Author: Just a little doodle of a sleeping cat by Chelsea Dover, Source: http://www.supercoloring.com/coloring-pages/sleeping-cat
 * snowman.svg - Author: SuperColoring, Source: http://www.supercoloring.com/coloring-pages/snowman
 * trees.svg - Author: SuperColoring, Source: http://www.supercoloring.com/coloring-pages/trees
+* girl_with_a_pearl_earring.svg - Author: Johannes Vermeer, Source: http://www.supercoloring.com/coloring-pages/girl-with-pearl-earring
+* peace_dove_by_picasso.svg - Author: Pablo Picasso, Source: http://www.supercoloring.com/coloring-pages/peace-dove-by-picasso
+* zentangle_fruits_and_chalice.svg - Author: Zentangle Food, Source: http://www.supercoloring.com/coloring-pages/zentangle-fruits-and-chalice

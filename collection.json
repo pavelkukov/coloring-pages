@@ -949,5 +949,56 @@
       "sizing-cover"
     ],
     "author": "SuperColoring"
+  },
+  "girl_with_a_pearl_earring.svg": {
+    "size": 79713,
+    "difficulty": {
+      "totalAreas": 78,
+      "smallAreas": 4,
+      "mediumAreas": 15,
+      "difficultyNumber": 109
+    },
+    "date": "2020-04-26",
+    "source": "http://www.supercoloring.com/coloring-pages/girl-with-pearl-earring",
+    "categories": [
+      "acb",
+      "vermeer",
+      "artworks"
+    ],
+    "author": "Johannes Vermeer"
+  },
+  "peace_dove_by_picasso.svg": {
+    "size": 16075,
+    "difficulty": {
+      "totalAreas": 2,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 2
+    },
+    "date": "2020-04-26",
+    "source": "http://www.supercoloring.com/coloring-pages/peace-dove-by-picasso",
+    "categories": [
+      "acb",
+      "artworks",
+      "picasso"
+    ],
+    "author": "Pablo Picasso"
+  },
+  "zentangle_fruits_and_chalice.svg": {
+    "size": 154764,
+    "difficulty": {
+      "totalAreas": 177,
+      "smallAreas": 25,
+      "mediumAreas": 44,
+      "difficultyNumber": 293
+    },
+    "date": "2020-04-26",
+    "source": "http://www.supercoloring.com/coloring-pages/zentangle-fruits-and-chalice",
+    "categories": [
+      "acb",
+      "zentangle",
+      "naturmort"
+    ],
+    "author": "Zentangle Food"
   }
 }
