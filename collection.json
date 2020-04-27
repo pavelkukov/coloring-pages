@@ -951,7 +951,7 @@
     "author": "SuperColoring"
   },
   "girl_with_a_pearl_earring.svg": {
-    "size": 79713,
+    "size": 79757,
     "difficulty": {
       "totalAreas": 78,
       "smallAreas": 4,
@@ -962,6 +962,7 @@
     "source": "http://www.supercoloring.com/coloring-pages/girl-with-pearl-earring",
     "categories": [
       "acb",
+      "sizing-cover",
       "vermeer",
       "artworks"
     ],
