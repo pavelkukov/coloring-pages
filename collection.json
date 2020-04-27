@@ -1003,12 +1003,12 @@
     "author": "Zentangle Food"
   },
   "flowers_with_paisley_patterns.svg": {
-    "size": 437109,
+    "size": 361086,
     "difficulty": {
-      "totalAreas": 396,
-      "smallAreas": 106,
-      "mediumAreas": 107,
-      "difficultyNumber": 769
+      "totalAreas": 400,
+      "smallAreas": 115,
+      "mediumAreas": 98,
+      "difficultyNumber": 777
     },
     "date": "2020-04-27",
     "source": "http://www.supercoloring.com/coloring-pages/flowers-with-paisley-patterns",
@@ -1071,7 +1071,7 @@
     "author": "Nonenmac"
   },
   "s_s_edmund_fitzgerald.svg": {
-    "size": 123987,
+    "size": 124193,
     "difficulty": {
       "totalAreas": 133,
       "smallAreas": 89,
@@ -1080,7 +1080,12 @@
     },
     "date": "2020-04-27",
     "source": "http://www.supercoloring.com/coloring-pages/ss-edmund-fitzgerald",
-    "categories": [],
+    "categories": [
+      "acb",
+      "ships",
+      "sizing-cover",
+      "landscape"
+    ],
     "author": "Lena London"
   }
 }

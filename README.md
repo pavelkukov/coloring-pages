@@ -86,6 +86,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * rain
 * sea
 * shapes
+* ships
 * sizing-cover
 * snow
 * spring
@@ -99,7 +100,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * vpos-b
 * zentangle
 
-> totally 70 categories for 62 images
+> totally 71 categories for 62 images
 
 ## Generate `collection.json`
 
