@@ -54,3 +54,7 @@
 * girl_with_a_pearl_earring.svg - Author: Johannes Vermeer, Source: http://www.supercoloring.com/coloring-pages/girl-with-pearl-earring
 * peace_dove_by_picasso.svg - Author: Pablo Picasso, Source: http://www.supercoloring.com/coloring-pages/peace-dove-by-picasso
 * zentangle_fruits_and_chalice.svg - Author: Zentangle Food, Source: http://www.supercoloring.com/coloring-pages/zentangle-fruits-and-chalice
+* flowers_with_paisley_patterns.svg - Author: Lesya Adamchuk, Source: http://www.supercoloring.com/coloring-pages/flowers-with-paisley-patterns
+* hasma.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/hamsa
+* mosaic_heart.svg - Author: Artsashina, Source: http://www.supercoloring.com/coloring-pages/mosaic-heart
+* tessellation_with_triangle_and_square.svg - Author: Nonenmac, Source: http://www.supercoloring.com/coloring-pages/tessellation-with-triangle-and-square

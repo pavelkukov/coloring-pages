@@ -985,7 +985,7 @@
     "author": "Pablo Picasso"
   },
   "zentangle_fruits_and_chalice.svg": {
-    "size": 154764,
+    "size": 187907,
     "difficulty": {
       "totalAreas": 177,
       "smallAreas": 25,
@@ -1000,5 +1000,73 @@
       "naturmort"
     ],
     "author": "Zentangle Food"
+  },
+  "flowers_with_paisley_patterns.svg": {
+    "size": 437109,
+    "difficulty": {
+      "totalAreas": 396,
+      "smallAreas": 106,
+      "mediumAreas": 107,
+      "difficultyNumber": 769
+    },
+    "date": "2020-04-27",
+    "source": "http://www.supercoloring.com/coloring-pages/flowers-with-paisley-patterns",
+    "categories": [
+      "acb",
+      "artwork",
+      "paisley"
+    ],
+    "author": "Lesya Adamchuk"
+  },
+  "hasma.svg": {
+    "size": 262906,
+    "difficulty": {
+      "totalAreas": 440,
+      "smallAreas": 243,
+      "mediumAreas": 128,
+      "difficultyNumber": 1118
+    },
+    "date": "2020-04-27",
+    "source": "http://www.supercoloring.com/coloring-pages/hamsa",
+    "categories": [
+      "acb",
+      "hasma"
+    ],
+    "author": "Public domain"
+  },
+  "mosaic_heart.svg": {
+    "size": 216328,
+    "difficulty": {
+      "totalAreas": 259,
+      "smallAreas": 8,
+      "mediumAreas": 0,
+      "difficultyNumber": 275
+    },
+    "date": "2020-04-27",
+    "source": "http://www.supercoloring.com/coloring-pages/mosaic-heart",
+    "categories": [
+      "acb",
+      "artwork",
+      "mosaic"
+    ],
+    "author": "Artsashina"
+  },
+  "tessellation_with_triangle_and_square.svg": {
+    "size": 43713,
+    "difficulty": {
+      "totalAreas": 117,
+      "smallAreas": 0,
+      "mediumAreas": 4,
+      "difficultyNumber": 123
+    },
+    "date": "2020-04-27",
+    "source": "http://www.supercoloring.com/coloring-pages/tessellation-with-triangle-and-square",
+    "categories": [
+      "acb",
+      "artworks",
+      "mosaic",
+      "sizing-cover"
+    ],
+    "author": "Nonenmac"
   }
 }
