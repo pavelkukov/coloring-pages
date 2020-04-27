@@ -98,7 +98,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * vermeer
 * zentangle
 
-> totally 69 categories for 61 images
+> totally 69 categories for 62 images
 
 ## Generate `collection.json`
 

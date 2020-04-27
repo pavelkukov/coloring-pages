@@ -1068,5 +1068,18 @@
       "sizing-cover"
     ],
     "author": "Nonenmac"
+  },
+  "s_s_edmund_fitzgerald.svg": {
+    "size": 123987,
+    "difficulty": {
+      "totalAreas": 133,
+      "smallAreas": 89,
+      "mediumAreas": 23,
+      "difficultyNumber": 346
+    },
+    "date": "2020-04-27",
+    "source": "http://www.supercoloring.com/coloring-pages/ss-edmund-fitzgerald",
+    "categories": [],
+    "author": "Lena London"
   }
 }

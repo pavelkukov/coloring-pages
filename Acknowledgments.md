@@ -58,3 +58,4 @@
 * hasma.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/hamsa
 * mosaic_heart.svg - Author: Artsashina, Source: http://www.supercoloring.com/coloring-pages/mosaic-heart
 * tessellation_with_triangle_and_square.svg - Author: Nonenmac, Source: http://www.supercoloring.com/coloring-pages/tessellation-with-triangle-and-square
+* s_s_edmund_fitzgerald.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/ss-edmund-fitzgerald
