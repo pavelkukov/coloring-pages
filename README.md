@@ -96,9 +96,10 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * unicorn
 * vegetables
 * vermeer
+* vpos-b
 * zentangle
 
-> totally 69 categories for 62 images
+> totally 70 categories for 62 images
 
 ## Generate `collection.json`
 
