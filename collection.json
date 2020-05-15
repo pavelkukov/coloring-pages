@@ -1089,12 +1089,12 @@
     "author": "Lena London"
   },
   "butterfly_tattoo.svg": {
-    "size": 20313,
+    "size": 18621,
     "difficulty": {
-      "totalAreas": 1,
-      "smallAreas": 0,
-      "mediumAreas": 0,
-      "difficultyNumber": 1
+      "totalAreas": 55,
+      "smallAreas": 16,
+      "mediumAreas": 12,
+      "difficultyNumber": 105
     },
     "date": "2020-05-15",
     "source": "http://www.supercoloring.com/coloring-pages/butterfly-tattoo?tag=58516",
@@ -1105,12 +1105,12 @@
     "author": "Public domain"
   },
   "celtic_ornament_book_of_kells.svg": {
-    "size": 66987,
+    "size": 55320,
     "difficulty": {
-      "totalAreas": 93,
-      "smallAreas": 14,
-      "mediumAreas": 16,
-      "difficultyNumber": 145
+      "totalAreas": 99,
+      "smallAreas": 21,
+      "mediumAreas": 13,
+      "difficultyNumber": 161
     },
     "date": "2020-05-15",
     "source": "http://www.supercoloring.com/coloring-pages/celtic-ornament-design-from-book-of-kells?tag=58516",
@@ -1122,12 +1122,12 @@
     "author": "Artsashina"
   },
   "fairy_tattoo.svg": {
-    "size": 101861,
+    "size": 103814,
     "difficulty": {
-      "totalAreas": 2,
-      "smallAreas": 1,
+      "totalAreas": 1,
+      "smallAreas": 0,
       "mediumAreas": 0,
-      "difficultyNumber": 4
+      "difficultyNumber": 1
     },
     "date": "2020-05-15",
     "source": "http://www.supercoloring.com/coloring-pages/fairy-tattoo?tag=58516",
@@ -1138,7 +1138,7 @@
     "author": "Bianca Vola"
   },
   "locked_heart.svg": {
-    "size": 66517,
+    "size": 61814,
     "difficulty": {
       "totalAreas": 1,
       "smallAreas": 0,
@@ -1154,12 +1154,12 @@
     "author": "Public domain"
   },
   "poppies_coloring_page.svg": {
-    "size": 141238,
+    "size": 127593,
     "difficulty": {
-      "totalAreas": 1,
+      "totalAreas": 2,
       "smallAreas": 0,
       "mediumAreas": 0,
-      "difficultyNumber": 1
+      "difficultyNumber": 2
     },
     "date": "2020-05-15",
     "source": "http://www.supercoloring.com/coloring-pages/flowers-1",
