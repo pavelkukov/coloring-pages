@@ -1089,12 +1089,12 @@
     "author": "Lena London"
   },
   "butterfly_tattoo.svg": {
-    "size": 18621,
+    "size": 10574,
     "difficulty": {
-      "totalAreas": 55,
-      "smallAreas": 16,
-      "mediumAreas": 12,
-      "difficultyNumber": 105
+      "totalAreas": 21,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 21
     },
     "date": "2020-05-15",
     "source": "http://www.supercoloring.com/coloring-pages/butterfly-tattoo?tag=58516",
@@ -1105,7 +1105,7 @@
     "author": "Public domain"
   },
   "celtic_ornament_book_of_kells.svg": {
-    "size": 55320,
+    "size": 55477,
     "difficulty": {
       "totalAreas": 99,
       "smallAreas": 21,
@@ -1122,12 +1122,12 @@
     "author": "Artsashina"
   },
   "fairy_tattoo.svg": {
-    "size": 103814,
+    "size": 45559,
     "difficulty": {
-      "totalAreas": 1,
-      "smallAreas": 0,
-      "mediumAreas": 0,
-      "difficultyNumber": 1
+      "totalAreas": 87,
+      "smallAreas": 29,
+      "mediumAreas": 14,
+      "difficultyNumber": 166
     },
     "date": "2020-05-15",
     "source": "http://www.supercoloring.com/coloring-pages/fairy-tattoo?tag=58516",
@@ -1138,12 +1138,12 @@
     "author": "Bianca Vola"
   },
   "locked_heart.svg": {
-    "size": 61814,
+    "size": 28385,
     "difficulty": {
-      "totalAreas": 1,
-      "smallAreas": 0,
-      "mediumAreas": 0,
-      "difficultyNumber": 1
+      "totalAreas": 71,
+      "smallAreas": 10,
+      "mediumAreas": 4,
+      "difficultyNumber": 97
     },
     "date": "2020-05-15",
     "source": "http://www.supercoloring.com/coloring-pages/locked-heart",
@@ -1154,19 +1154,20 @@
     "author": "Public domain"
   },
   "poppies_coloring_page.svg": {
-    "size": 127593,
+    "size": 69620,
     "difficulty": {
-      "totalAreas": 2,
-      "smallAreas": 0,
-      "mediumAreas": 0,
-      "difficultyNumber": 2
+      "totalAreas": 200,
+      "smallAreas": 55,
+      "mediumAreas": 28,
+      "difficultyNumber": 352
     },
     "date": "2020-05-15",
     "source": "http://www.supercoloring.com/coloring-pages/flowers-1",
     "categories": [
       "poppies",
       "acb",
-      "flowers"
+      "flowers",
+      "tattoo"
     ],
     "author": "Public domain"
   }
