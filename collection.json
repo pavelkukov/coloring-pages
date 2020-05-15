@@ -1087,5 +1087,87 @@
       "landscape"
     ],
     "author": "Lena London"
+  },
+  "butterfly_tattoo.svg": {
+    "size": 20313,
+    "difficulty": {
+      "totalAreas": 1,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 1
+    },
+    "date": "2020-05-15",
+    "source": "http://www.supercoloring.com/coloring-pages/butterfly-tattoo?tag=58516",
+    "categories": [
+      "acb",
+      "tattoo"
+    ],
+    "author": "Public domain"
+  },
+  "celtic_ornament_book_of_kells.svg": {
+    "size": 66987,
+    "difficulty": {
+      "totalAreas": 93,
+      "smallAreas": 14,
+      "mediumAreas": 16,
+      "difficultyNumber": 145
+    },
+    "date": "2020-05-15",
+    "source": "http://www.supercoloring.com/coloring-pages/celtic-ornament-design-from-book-of-kells?tag=58516",
+    "categories": [
+      "acb",
+      "tattoo",
+      "celtic"
+    ],
+    "author": "Artsashina"
+  },
+  "fairy_tattoo.svg": {
+    "size": 101861,
+    "difficulty": {
+      "totalAreas": 2,
+      "smallAreas": 1,
+      "mediumAreas": 0,
+      "difficultyNumber": 4
+    },
+    "date": "2020-05-15",
+    "source": "http://www.supercoloring.com/coloring-pages/fairy-tattoo?tag=58516",
+    "categories": [
+      "acb",
+      "tattoo"
+    ],
+    "author": "Bianca Vola"
+  },
+  "locked_heart.svg": {
+    "size": 66517,
+    "difficulty": {
+      "totalAreas": 1,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 1
+    },
+    "date": "2020-05-15",
+    "source": "http://www.supercoloring.com/coloring-pages/locked-heart",
+    "categories": [
+      "acb",
+      "tattoo"
+    ],
+    "author": "Public domain"
+  },
+  "poppies_coloring_page.svg": {
+    "size": 141238,
+    "difficulty": {
+      "totalAreas": 1,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 1
+    },
+    "date": "2020-05-15",
+    "source": "http://www.supercoloring.com/coloring-pages/flowers-1",
+    "categories": [
+      "poppies",
+      "acb",
+      "flowers"
+    ],
+    "author": "Public domain"
   }
 }

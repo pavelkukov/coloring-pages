@@ -53,6 +53,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * camel
 * caricatures
 * cat
+* celtic
 * christmas
 * cloud
 * csk
@@ -81,6 +82,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * p
 * paisley
 * picasso
+* poppies
 * princess
 * pumpkin
 * rain
@@ -92,6 +94,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * spring
 * summer
 * surf
+* tattoo
 * trees
 * underwater
 * unicorn
@@ -100,7 +103,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * vpos-b
 * zentangle
 
-> totally 71 categories for 62 images
+> totally 74 categories for 67 images
 
 ## Generate `collection.json`
 

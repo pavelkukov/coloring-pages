@@ -59,3 +59,8 @@
 * mosaic_heart.svg - Author: Artsashina, Source: http://www.supercoloring.com/coloring-pages/mosaic-heart
 * tessellation_with_triangle_and_square.svg - Author: Nonenmac, Source: http://www.supercoloring.com/coloring-pages/tessellation-with-triangle-and-square
 * s_s_edmund_fitzgerald.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/ss-edmund-fitzgerald
+* butterfly_tattoo.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/butterfly-tattoo?tag=58516
+* celtic_ornament_book_of_kells.svg - Author: Artsashina, Source: http://www.supercoloring.com/coloring-pages/celtic-ornament-design-from-book-of-kells?tag=58516
+* fairy_tattoo.svg - Author: Bianca Vola, Source: http://www.supercoloring.com/coloring-pages/fairy-tattoo?tag=58516
+* locked_heart.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/locked-heart
+* poppies_coloring_page.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/flowers-1
