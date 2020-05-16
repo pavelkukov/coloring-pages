@@ -29,7 +29,6 @@ jobs:
         CI: true
         HUSKY_SKIP_HOOKS: 1
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
-    - run: npm run warm
     - run: npm run build-storybook
     - run: npm run copy-to-ghpages
     - run: git config --global --add url."git@github.com:".insteadOf "https://github.com/"
