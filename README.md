@@ -76,6 +76,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * landscape
 * letters
 * magic-animals
+* mandala
 * mosaic
 * naturmort
 * octopus
@@ -103,7 +104,7 @@ All images are labeled/categorized using `<dc:subject>` tag in `<cc:Work>` secti
 * vpos-b
 * zentangle
 
-> totally 74 categories for 67 images
+> totally 75 categories for 75 images
 
 ## Generate `collection.json`
 

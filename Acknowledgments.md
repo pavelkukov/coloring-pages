@@ -64,3 +64,11 @@
 * fairy_tattoo.svg - Author: Bianca Vola, Source: http://www.supercoloring.com/coloring-pages/fairy-tattoo?tag=58516
 * locked_heart.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/locked-heart
 * poppies_coloring_page.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/flowers-1
+* abstract_mandala.svg - Author: Dora Alis, Source: http://www.supercoloring.com/coloring-pages/simple-abstract-mandala-1
+* abstract_mandala_1.svg - Author: Dora Alis, Source: http://www.supercoloring.com/coloring-pages/abstract-mandala-4
+* celtic_mandala.svg - Author: Dora Alis, Source: http://www.supercoloring.com/coloring-pages/celtic-mandala-0
+* elephant_mandala.svg - Author: Public domain, Source: http://www.supercoloring.com/coloring-pages/elephant-mandala-0
+* mandala_pattern_1.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/mandala-with-abstract-pattern
+* mandala_pattern_2.svg - Author: Lena London, Source: http://www.supercoloring.com/coloring-pages/mandala-with-abstract-pattern-0
+* sun_mandala.svg - Author: Dora Alis, Source: http://www.supercoloring.com/coloring-pages/mandala-with-sun
+* sun_mandala_2.svg - Author: Nevit, Source: http://www.supercoloring.com/coloring-pages/sun-mandala-0

@@ -1170,5 +1170,133 @@
       "tattoo"
     ],
     "author": "Public domain"
+  },
+  "abstract_mandala.svg": {
+    "size": 69853,
+    "difficulty": {
+      "totalAreas": 96,
+      "smallAreas": 4,
+      "mediumAreas": 10,
+      "difficultyNumber": 119
+    },
+    "date": "2020-05-17",
+    "source": "http://www.supercoloring.com/coloring-pages/simple-abstract-mandala-1",
+    "categories": [
+      "acb",
+      "mandala"
+    ],
+    "author": "Dora Alis"
+  },
+  "abstract_mandala_1.svg": {
+    "size": 146549,
+    "difficulty": {
+      "totalAreas": 372,
+      "smallAreas": 35,
+      "mediumAreas": 49,
+      "difficultyNumber": 516
+    },
+    "date": "2020-05-17",
+    "source": "http://www.supercoloring.com/coloring-pages/abstract-mandala-4",
+    "categories": [
+      "acb",
+      "mandala"
+    ],
+    "author": "Dora Alis"
+  },
+  "celtic_mandala.svg": {
+    "size": 54831,
+    "difficulty": {
+      "totalAreas": 25,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 25
+    },
+    "date": "2020-05-17",
+    "source": "http://www.supercoloring.com/coloring-pages/celtic-mandala-0",
+    "categories": [
+      "acb",
+      "mandala"
+    ],
+    "author": "Dora Alis"
+  },
+  "elephant_mandala.svg": {
+    "size": 168947,
+    "difficulty": {
+      "totalAreas": 108,
+      "smallAreas": 21,
+      "mediumAreas": 32,
+      "difficultyNumber": 198
+    },
+    "date": "2020-05-17",
+    "source": "http://www.supercoloring.com/coloring-pages/elephant-mandala-0",
+    "categories": [
+      "acb",
+      "mandala"
+    ],
+    "author": "Public domain"
+  },
+  "mandala_pattern_1.svg": {
+    "size": 31387,
+    "difficulty": {
+      "totalAreas": 101,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 101
+    },
+    "date": "2020-05-17",
+    "source": "http://www.supercoloring.com/coloring-pages/mandala-with-abstract-pattern",
+    "categories": [
+      "acb",
+      "mandala"
+    ],
+    "author": "Lena London"
+  },
+  "mandala_pattern_2.svg": {
+    "size": 28499,
+    "difficulty": {
+      "totalAreas": 37,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 37
+    },
+    "date": "2020-05-17",
+    "source": "http://www.supercoloring.com/coloring-pages/mandala-with-abstract-pattern-0",
+    "categories": [
+      "acb",
+      "mandala"
+    ],
+    "author": "Lena London"
+  },
+  "sun_mandala.svg": {
+    "size": 261384,
+    "difficulty": {
+      "totalAreas": 113,
+      "smallAreas": 10,
+      "mediumAreas": 13,
+      "difficultyNumber": 153
+    },
+    "date": "2020-05-17",
+    "source": "http://www.supercoloring.com/coloring-pages/mandala-with-sun",
+    "categories": [
+      "acb",
+      "mandala"
+    ],
+    "author": "Dora Alis"
+  },
+  "sun_mandala_2.svg": {
+    "size": 49870,
+    "difficulty": {
+      "totalAreas": 103,
+      "smallAreas": 0,
+      "mediumAreas": 0,
+      "difficultyNumber": 103
+    },
+    "date": "2020-05-17",
+    "source": "http://www.supercoloring.com/coloring-pages/sun-mandala-0",
+    "categories": [
+      "acb",
+      "mandala"
+    ],
+    "author": "Nevit"
   }
 }
